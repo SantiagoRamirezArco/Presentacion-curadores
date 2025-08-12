@@ -754,235 +754,278 @@ export default function PresentacionJunta() {
   )
 
   const renderMiembro = (miembro: (typeof todosMiembros)[0]) => (
-    <div className="min-h-screen bg-[#2c4687] relative overflow-hidden">
-      {/* Header con efecto similar al CV de Angela */}
-      <div className="bg-[#2c4687] relative" style={{ minHeight: '35vh' }}>
-        {/* Elementos decorativos del header */}
-        <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute top-20 right-20 w-64 h-64 bg-white/10 rounded-full blur-3xl"></div>
-          <div className="absolute bottom-10 left-20 w-80 h-80 bg-white/5 rounded-full blur-3xl"></div>
-        </div>
-        
-        <div className="container mx-auto px-8 py-16 relative z-10">
+    <div className="min-h-screen bg-white relative overflow-hidden">
+      
+      {/* Header minimalista y elegante */}
+      <div className="bg-gradient-to-r from-[#2c4687] to-[#3b5398] py-8 px-8">
+        <div className="container mx-auto">
           <div className="flex items-center justify-between">
-            {/* Información principal del miembro */}
-            <div className="flex-1">
-              <div className="flex items-center space-x-8">
-                {/* Avatar circular grande */}
-                <div className="relative">
-                  <div className="w-40 h-40 bg-white/20 rounded-full flex items-center justify-center backdrop-blur-sm border-4 border-white/30">
-                    <span className="text-4xl font-bold text-white tracking-wide">
-                      {miembro.nombre.split(' ').map((name: string) => name[0]).join('').slice(0, 2)}
-                    </span>
-                  </div>
-                </div>
-                
-                {/* Información textual */}
-                <div className="flex-1 space-y-4">
-                  <h1 
-                    className="text-5xl font-bold text-white mb-2 uppercase tracking-wide"
-                    style={{ WebkitTextStroke: '2px rgba(255,255,255,0.3)' }}
-                  >
-                    {miembro.nombre}
-                  </h1>
-                  <div className="text-2xl font-light text-white/90">
-                    {miembro.cargo}
-                  </div>
-                  {(miembro as any).detalles?.titulo && (
-                    <div className="text-lg text-white/80 font-medium">
-                      {(miembro as any).detalles.titulo}
-                    </div>
-                  )}
-                  {(miembro as any).detalles?.encabezado && (
-                    <div className="text-base text-white/75 max-w-2xl leading-relaxed">
-                      {(miembro as any).detalles.encabezado}
-                    </div>
-                  )}
-                </div>
+            
+            {/* Logo pequeño y título */}
+            <div className="flex items-center space-x-4">
+              <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center">
+                <Image
+                  src="/logo-cncu.png"
+                  alt="CNCU"
+                  width={32}
+                  height={32}
+                  className="object-contain"
+                />
+              </div>
+              <div className="text-white">
+                <h2 className="text-lg font-semibold">Colegio Nacional de Curadores Urbanos</h2>
+                <p className="text-white/80 text-sm">Junta Directiva 2025-2026</p>
               </div>
             </div>
             
-            {/* Botón de descarga/contacto */}
-            <div className="flex flex-col items-end space-y-4">
-              <Button 
-                className="bg-white/20 text-white border-2 border-white/30 hover:bg-white/30 backdrop-blur-sm px-8 py-3 font-semibold tracking-wide"
-                variant="outline"
-              >
-                Ver Detalles
-              </Button>
-              {(miembro as any).detalles?.posesion && (
-                <div className="text-white/70 text-sm">
-                  En el cargo desde {(miembro as any).detalles.posesion}
-                </div>
+            {/* Información del miembro */}
+            <div className="text-right text-white">
+              <h1 className="text-2xl font-bold">{miembro.nombre}</h1>
+              <p className="text-white/90 text-lg">{miembro.cargo}</p>
+              {(miembro as any).detalles?.titulo && (
+                <p className="text-white/70 text-sm">{(miembro as any).detalles.titulo}</p>
               )}
             </div>
           </div>
         </div>
       </div>
 
+      {/* Línea decorativa */}
+      <div className="h-1 bg-gradient-to-r from-[#2c4687] via-[#8a94bb] to-[#2c4687]"></div>
+
       {/* Contenido principal estilo CV */}
-      <div className="bg-white min-h-screen">
+      <div className="bg-gray-50 min-h-screen">
         <div className="container mx-auto px-8 py-16">
           
-          {/* Sección "Sobre Mí" */}
-          <div className="mb-16">
-            <div className="flex items-center justify-center mb-12">
+          {/* Sección "Sobre Mí" - Estilo más fiel al CV de Angela */}
+          <div className="py-20">
+            {/* Título con efecto superpuesto igual al CV de Angela */}
+            <div className="relative flex items-center justify-center mb-16">
               <h1 
-                className="text-6xl font-light text-gray-100 uppercase tracking-widest"
+                className="text-8xl font-bold text-gray-100 uppercase tracking-widest"
                 style={{ WebkitTextStroke: '1px #dee2e6' }}
               >
-                PERFIL
+                SOBRE
               </h1>
-              <h1 className="absolute text-3xl font-bold text-[#2c4687] uppercase tracking-wide">
+              <h1 className="absolute text-4xl font-bold text-[#2c4687] uppercase tracking-wide">
                 SOBRE {miembro.nombre.split(' ')[0]}
               </h1>
             </div>
             
-            <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 items-start">
-              {/* Información personal */}
-              <div className="lg:col-span-3">
+            {/* Layout igual al CV: imagen izquierda, contenido derecha */}
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+              
+              {/* Logo del Colegio lado izquierdo (5 columnas como en el CV) */}
+              <div className="lg:col-span-5">
+                <div className="relative">
+                  <div className="w-full h-96 bg-white rounded-lg flex items-center justify-center shadow-lg border-2 border-gray-200">
+                    <Image
+                      src="/logo-cncu.png"
+                      alt="Logo Colegio Nacional de Curadores Urbanos"
+                      width={280}
+                      height={280}
+                      className="object-contain"
+                    />
+                  </div>
+                </div>
+              </div>
+              
+              {/* Contenido lado derecho (7 columnas como en el CV) */}
+              <div className="lg:col-span-7">
+                
+                {/* Título del cargo como "Psicóloga" */}
+                <h3 className="text-3xl font-semibold text-gray-800 mb-6">
+                  {miembro.cargo}
+                </h3>
+                
+                {/* Descripción/experiencia como párrafo principal */}
                 {(miembro as any).detalles?.experiencia && typeof (miembro as any).detalles.experiencia === 'string' && (
                   <p className="text-gray-600 leading-relaxed text-lg mb-8">
                     {(miembro as any).detalles.experiencia}
                   </p>
                 )}
                 
-                {/* Grid de información personal */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {/* Grid de información personal exactamente como el CV de Angela */}
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                  
+                  {/* Columna izquierda */}
                   <div className="space-y-4">
-                    <div className="py-3">
-                      <h6 className="font-semibold text-gray-800">
+                    <div className="py-2">
+                      <h6 className="text-gray-800 font-semibold">
                         Nombre: <span className="text-gray-600 font-normal">{miembro.nombre}</span>
                       </h6>
                     </div>
-                    <div className="py-3">
-                      <h6 className="font-semibold text-gray-800">
+                    
+                    <div className="py-2">
+                      <h6 className="text-gray-800 font-semibold">
+                        Ubicación: <span className="text-gray-600 font-normal">Colombia</span>
+                      </h6>
+                    </div>
+                    
+                    <div className="py-2">
+                      <h6 className="text-gray-800 font-semibold">
+                        Estudio: <span className="text-gray-600 font-normal">Profesional</span>
+                      </h6>
+                    </div>
+                  </div>
+                  
+                  {/* Columna derecha */}
+                  <div className="space-y-4">
+                    <div className="py-2">
+                      <h6 className="text-gray-800 font-semibold">
                         Cargo: <span className="text-gray-600 font-normal">{miembro.cargo}</span>
                       </h6>
                     </div>
-                    {(miembro as any).detalles?.universidad && (
-                      <div className="py-3">
-                        <h6 className="font-semibold text-gray-800">
-                          Universidad: <span className="text-gray-600 font-normal">{(miembro as any).detalles.universidad}</span>
-                        </h6>
-                      </div>
-                    )}
-                  </div>
-                  
-                  <div className="space-y-4">
+                    
                     {(miembro as any).detalles?.posesion && (
-                      <div className="py-3">
-                        <h6 className="font-semibold text-gray-800">
+                      <div className="py-2">
+                        <h6 className="text-gray-800 font-semibold">
                           En el cargo desde: <span className="text-gray-600 font-normal">{(miembro as any).detalles.posesion}</span>
                         </h6>
                       </div>
                     )}
+                    
                     {(miembro as any).detalles?.formacion && (
-                      <div className="py-3">
-                        <h6 className="font-semibold text-gray-800">
+                      <div className="py-2">
+                        <h6 className="text-gray-800 font-semibold">
                           Formaciones: <span className="text-gray-600 font-normal">{(miembro as any).detalles.formacion.length}</span>
                         </h6>
                       </div>
                     )}
-                    {(miembro as any).detalles?.experienciaProfesional && (
-                      <div className="py-3">
-                        <h6 className="font-semibold text-gray-800">
-                          Experiencias: <span className="text-gray-600 font-normal">{(miembro as any).detalles.experienciaProfesional.length}</span>
-                        </h6>
-                      </div>
-                    )}
                   </div>
                 </div>
-              </div>
-              
-              {/* Imagen o avatar más grande */}
-              <div className="lg:col-span-2">
-                <div className="bg-gray-100 rounded-lg p-8 text-center">
-                  <div className="w-48 h-48 bg-[#2c4687] rounded-full flex items-center justify-center mx-auto mb-4">
-                    <span className="text-5xl font-bold text-white tracking-wide">
-                      {miembro.nombre.split(' ').map((name: string) => name[0]).join('').slice(0, 2)}
-                    </span>
-                  </div>
-                  <h3 className="text-xl font-semibold text-gray-800 mb-2">{miembro.cargo}</h3>
-                  <p className="text-gray-600">Colegio Nacional de Curadores Urbanos</p>
-                </div>
+                
+                {/* Botón como en el CV original */}
+                <Button 
+                  className="bg-transparent border-2 border-[#2c4687] text-[#2c4687] hover:bg-[#2c4687] hover:text-white px-8 py-3 font-semibold tracking-wide transition-all duration-300"
+                  variant="outline"
+                >
+                  Conoce más
+                </Button>
               </div>
             </div>
           </div>
 
-          {/* Sección de Formación y Experiencia */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+          {/* Sección de Formación y Experiencia - Estilo CV Angela */}
+          <div className="py-20">
             
-            {/* Formación Académica */}
-            {(miembro as any).detalles?.formacion && (
-              <div>
-                <h3 className="text-2xl font-semibold text-[#2c4687] mb-8">Mi Educación</h3>
-                <div className="border-l-4 border-[#2c4687] pl-8 ml-4 space-y-8">
-                  {(miembro as any).detalles.formacion.map((item: string, index: number) => (
-                    <div key={index} className="relative">
-                      <div 
-                        className="absolute w-4 h-4 bg-[#2c4687] rounded-full -left-10"
-                        style={{ top: '2px' }}
-                      ></div>
-                      <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
-                        <h5 className="font-bold text-gray-800 mb-2 text-lg">
-                          {item.split(' - ')[0] || item.split(' | ')[0] || item}
-                        </h5>
-                        {(item.includes(' - ') || item.includes(' | ')) && (
-                          <p className="text-gray-600 mb-2">
-                            <strong>{item.split(' - ')[1] || item.split(' | ')[1]}</strong>
-                          </p>
-                        )}
-                      </div>
+            {/* Título con efecto superpuesto */}
+            <div className="relative flex items-center justify-center mb-16">
+              <h1 
+                className="text-8xl font-bold text-gray-100 uppercase tracking-widest"
+                style={{ WebkitTextStroke: '1px #dee2e6' }}
+              >
+                FORMACIÓN
+              </h1>
+              <h1 className="absolute text-4xl font-bold text-[#2c4687] uppercase tracking-wide">
+                FORMACIÓN
+              </h1>
+            </div>
+            
+            {/* Grid de 2 columnas igual al CV de Angela */}
+            <div className="container mx-auto px-8">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+                
+                {/* Columna izquierda - Formación Académica */}
+                {(miembro as any).detalles?.formacion && (
+                  <div>
+                    <h3 className="text-2xl font-semibold text-gray-800 mb-8">Mi Educación</h3>
+                    
+                    {/* Timeline con borde izquierdo igual al CV */}
+                    <div className="border-l-4 border-[#2c4687] pt-2 pl-8 ml-2">
+                      {(miembro as any).detalles.formacion.map((item: string, index: number) => (
+                        <div key={index} className="relative mb-8">
+                          {/* Círculo en la línea de tiempo */}
+                          <div 
+                            className="absolute w-4 h-4 bg-[#2c4687] rounded-full border-4 border-white shadow-lg"
+                            style={{ top: '2px', left: '-42px' }}
+                          ></div>
+                          
+                          <div>
+                            <h5 className="font-bold text-gray-800 mb-2 text-lg uppercase">
+                              {item.split(' - ')[0] || item.split(' | ')[0] || item}
+                            </h5>
+                            {(item.includes(' - ') || item.includes(' | ')) && (
+                              <p className="mb-2 text-gray-700">
+                                <strong>{item.split(' - ')[1] || item.split(' | ')[1]} | </strong>
+                                <small className="text-gray-600">Colombia</small>
+                              </p>
+                            )}
+                            {index === 0 && (miembro as any).detalles?.experiencia && (
+                              <p className="text-gray-600 leading-relaxed">
+                                {typeof (miembro as any).detalles.experiencia === 'string' 
+                                  ? (miembro as any).detalles.experiencia.slice(0, 200) + '...'
+                                  : 'Formación especializada en el área profesional correspondiente.'
+                                }
+                              </p>
+                            )}
+                          </div>
+                        </div>
+                      ))}
                     </div>
-                  ))}
-                </div>
-              </div>
-            )}
+                  </div>
+                )}
 
-            {/* Experiencia Profesional / Logros */}
-            {((miembro as any).detalles?.experienciaProfesional || (miembro as any).detalles?.logros) && (
-              <div>
-                <h3 className="text-2xl font-semibold text-[#2c4687] mb-8">
-                  {(miembro as any).detalles?.logros ? 'Logros y Experiencia' : 'Experiencia Profesional'}
-                </h3>
-                <div className="border-l-4 border-[#2c4687] pl-8 ml-4 space-y-8">
-                  {/* Mostrar logros primero si existen */}
-                  {(miembro as any).detalles?.logros && (miembro as any).detalles.logros.map((item: string, index: number) => (
-                    <div key={`logro-${index}`} className="relative">
-                      <div 
-                        className="absolute w-4 h-4 bg-[#2c4687] rounded-full -left-10"
-                        style={{ top: '2px' }}
-                      ></div>
-                      <div className="bg-gradient-to-r from-[#2c4687]/5 to-white p-6 rounded-lg shadow-sm border border-[#2c4687]/20 hover:shadow-md transition-shadow">
-                        <h5 className="font-bold text-[#2c4687] mb-2 text-lg">LOGRO DESTACADO</h5>
-                        <p className="text-gray-700">{item}</p>
-                      </div>
+                {/* Columna derecha - Experiencia/Logros */}
+                {((miembro as any).detalles?.experienciaProfesional || (miembro as any).detalles?.logros) && (
+                  <div>
+                    <h3 className="text-2xl font-semibold text-gray-800 mb-8">
+                      {(miembro as any).detalles?.logros ? 'Logros y Participaciones' : 'Experiencia Profesional'}
+                    </h3>
+                    
+                    {/* Timeline con borde izquierdo igual al CV */}
+                    <div className="border-l-4 border-[#2c4687] pt-2 pl-8 ml-2">
+                      
+                      {/* Mostrar logros primero si existen */}
+                      {(miembro as any).detalles?.logros && (miembro as any).detalles.logros.map((item: string, index: number) => (
+                        <div key={`logro-${index}`} className="relative mb-8">
+                          <div 
+                            className="absolute w-4 h-4 bg-[#2c4687] rounded-full border-4 border-white shadow-lg"
+                            style={{ top: '2px', left: '-42px' }}
+                          ></div>
+                          
+                          <div>
+                            <h5 className="font-bold text-gray-800 mb-2 text-lg uppercase">
+                              LOGRO DESTACADO
+                            </h5>
+                            <p className="mb-2 text-gray-700">
+                              <strong>Colegio Nacional de Curadores Urbanos | </strong>
+                              <small className="text-gray-600">Colombia | 2025</small>
+                            </p>
+                            <p className="text-gray-600 leading-relaxed">{item}</p>
+                          </div>
+                        </div>
+                      ))}
+                      
+                      {/* Luego experiencia profesional */}
+                      {(miembro as any).detalles?.experienciaProfesional && (miembro as any).detalles.experienciaProfesional.slice(0, 4).map((item: string, index: number) => (
+                        <div key={`exp-${index}`} className="relative mb-8">
+                          <div 
+                            className="absolute w-4 h-4 bg-[#2c4687] rounded-full border-4 border-white shadow-lg"
+                            style={{ top: '2px', left: '-42px' }}
+                          ></div>
+                          
+                          <div>
+                            <h5 className="font-bold text-gray-800 mb-2 text-lg uppercase">
+                              {item.split(' | ')[0] || item.split(' - ')[0] || item.split(' en ')[0] || item}
+                            </h5>
+                            <p className="mb-2 text-gray-700">
+                              <strong>
+                                {item.includes(' | ') ? item.split(' | ')[1] : 
+                                 item.includes(' - ') ? item.split(' - ')[1] :
+                                 item.includes(' de ') ? item.split(' de ')[1] : 
+                                 'Institución'} | 
+                              </strong>
+                              <small className="text-gray-600"> Colombia</small>
+                            </p>
+                          </div>
+                        </div>
+                      ))}
                     </div>
-                  ))}
-                  
-                  {/* Luego experiencia profesional */}
-                  {(miembro as any).detalles?.experienciaProfesional && (miembro as any).detalles.experienciaProfesional.map((item: string, index: number) => (
-                    <div key={`exp-${index}`} className="relative">
-                      <div 
-                        className="absolute w-4 h-4 bg-[#2c4687] rounded-full -left-10"
-                        style={{ top: '2px' }}
-                      ></div>
-                      <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
-                        <h5 className="font-bold text-gray-800 mb-2 text-lg">
-                          {item.split(' | ')[0] || item.split(' - ')[0] || item}
-                        </h5>
-                        {(item.includes(' | ') || item.includes(' - ')) && (
-                          <p className="text-gray-600">
-                            {item.split(' | ')[1] || item.split(' - ')[1]}
-                          </p>
-                        )}
-                      </div>
-                    </div>
-                  ))}
-                </div>
+                  </div>
+                )}
               </div>
-            )}
+            </div>
           </div>
         </div>
       </div>
