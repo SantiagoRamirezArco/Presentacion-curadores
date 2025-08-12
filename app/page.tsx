@@ -51,6 +51,16 @@ const juntaDirectiva = [
       experiencia: "Ingeniera Civil de la Universidad Francisco de Paula Santander, Abogada de la Universidad de Santander, Especialista en Administración de la Construcción de la Universidad Francisco de Paula Santander, en Planificación y Administración del Desarrollo Regional con énfasis Ordenamiento Territorial de la Universidad de los Andes, en Derecho Inmobiliario Notarial y Urbanístico en la Unilibre, Magister en Gestión Urbana Universidad Piloto de Colombia y cursando Especialización en Derecho Administrativo Unilibre.\n\n18 años experiencia como Curador Urbana 1 de Cúcuta (15-junio-2007 a la fecha)\n12 años experiencia en Alcaldía de Cúcuta 13-01-1995 a 14-06-2007 en cargos carrera administrativa: Profesional Universitario área control físico y Ambiental Departamento Administrativo de Planeación Municipal, Directora (e) Planeación Municipal, Jefe (e) Estudios Socioeconómicos y Proyectos de inversión encargada, Jefe Demarcación, nomenclatura y usos del suelo Departamento Administrativo de Control Urbano (1995-1996)\nDocente modalidad cátedra Universidad Libre de Colombia seccionales, Cúcuta y Socorro.",
     }
   },
+  {
+    id: 15,
+    nombre: "Ángela María Restrepo Uribe",
+    cargo: "Dignatario",
+    foto: "/professional-woman-architect.png",
+    detalles: {
+      titulo: "Curadora Urbana Segunda de Medellín",
+      experiencia: "Arquitecta, egresada de la Facultad de Arquitectura de la Universidad Nacional de Colombia. Es Especialista en Administración Pública de la Escuela Superior de Administración Pública – ESAP, Especialista en Gestión y Procesos Urbanos de la Escuela de Ingeniería de Antioquia y Especialista en Derecho Urbano de la Universidad Externado de Colombia.\n\nCon una experiencia de 35 años, desde julio de 2007 y hasta octubre del año 2018, previo concursos de méritos, se desempeñó como Curadora Urbana Tercera de Medellín. Entre los años 2014 y 2018, por designación del Alcalde de la ciudad, ocupó en provisionalidad los cargos de Curadora Urbana Segunda y Cuarta de Medellín. Entre el año 2015 y 2018 fue miembro de la Junta Directiva del Colegio Nacional de Curadores, siendo su Presidente durante dos años.\n\nSe ha desempeñado como Consultora para Corantioquia en el tema de Espacio Público, para el Concejo Municipal de La Estrella como asesora en asuntos inherentes a la gestión pública y a la planeación y para el Municipio de Medellín en el proceso de revisión del Plan de Ordenamiento Territorial. Para la empresa privada ha prestado sus servicios como Asesora Técnica en la aplicación de los requisitos, trámites y normas para la obtención de Licencias de Urbanismo y Construcción, así como en la interpretación y aplicación de las normas urbanísticas y de construcción.\n\nFue Secretaria de Planeación y Desarrollo Municipal, Secretaria Privada y Secretaria de Gobierno en el Municipio de La Estrella, así como Coordinadora para la Formulación del Plan de Ordenamiento Territorial y Asesora de Planeación por espacio de nueve años. En el Área Metropolitana del Valle de Aburrá se desempeñó como Jefe de Departamento de Planeación y Desarrollo Metropolitano, Directora de Planeación Metropolitana y Asesora Técnica Municipal por un período de cinco años. En el municipio de Girardota fue Secretaria de Planeación y Obras.\n\nDesde junio de 2023 se desempeña como Curadora Urbana Segunda de Medellín."
+    }
+  },
 ]
 
 const dignatarios = [
@@ -159,16 +169,6 @@ const colaboradores = [
     detalles: {
       titulo: "Secretaria General",
       experiencia: "Tecnóloga en Sistematización de Datos del Politécnico Colombiano \"Jaime Isaza Cadavid\". Técnica Profesional en Secretariado Ejecutivo Bilingüe del Politécnico Grancolombiano.\n\nExperiencia Laboral\n\n• Secretaria General del Colegio Nacional de Curadores Urbanos. Agosto de 2002 a la fecha.\n• Secretaria Ejecutiva de empresa del sector privado.\n• Secretaria de Gerencia de empresa del sector privado.\n• Secretaria de Contaduría de empresa del sector privado."
-    }
-  },
-  {
-    id: 15,
-    nombre: "Ángela María Restrepo Uribe",
-    cargo: "Curadora Urbana",
-    foto: "/professional-woman-architect.png",
-    detalles: {
-      titulo: "Curadora Urbana Segunda de Medellín",
-      experiencia: "Arquitecta, egresada de la Facultad de Arquitectura de la Universidad Nacional de Colombia. Es Especialista en Administración Pública de la Escuela Superior de Administración Pública – ESAP, Especialista en Gestión y Procesos Urbanos de la Escuela de Ingeniería de Antioquia y Especialista en Derecho Urbano de la Universidad Externado de Colombia.\n\nCon una experiencia de 35 años, desde julio de 2007 y hasta octubre del año 2018, previo concursos de méritos, se desempeñó como Curadora Urbana Tercera de Medellín. Entre los años 2014 y 2018, por designación del Alcalde de la ciudad, ocupó en provisionalidad los cargos de Curadora Urbana Segunda y Cuarta de Medellín. Entre el año 2015 y 2018 fue miembro de la Junta Directiva del Colegio Nacional de Curadores, siendo su Presidente durante dos años.\n\nSe ha desempeñado como Consultora para Corantioquia en el tema de Espacio Público, para el Concejo Municipal de La Estrella como asesora en asuntos inherentes a la gestión pública y a la planeación y para el Municipio de Medellín en el proceso de revisión del Plan de Ordenamiento Territorial. Para la empresa privada ha prestado sus servicios como Asesora Técnica en la aplicación de los requisitos, trámites y normas para la obtención de Licencias de Urbanismo y Construcción, así como en la interpretación y aplicación de las normas urbanísticas y de construcción.\n\nFue Secretaria de Planeación y Desarrollo Municipal, Secretaria Privada y Secretaria de Gobierno en el Municipio de La Estrella, así como Coordinadora para la Formulación del Plan de Ordenamiento Territorial y Asesora de Planeación por espacio de nueve años. En el Área Metropolitana del Valle de Aburrá se desempeñó como Jefe de Departamento de Planeación y Desarrollo Metropolitano, Directora de Planeación Metropolitana y Asesora Técnica Municipal por un período de cinco años. En el municipio de Girardota fue Secretaria de Planeación y Obras.\n\nDesde junio de 2023 se desempeña como Curadora Urbana Segunda de Medellín."
     }
   },
 ]
