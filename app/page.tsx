@@ -14,23 +14,7 @@ const juntaDirectiva = [
     foto: "/professional-woman-executive.png",
     detalles: {
       titulo: "Curador Urbano 1 Montería",
-      experiencia: "Arquitecto de la Universidad La Gran Colombia, con amplia experiencia en el sector de curadorías urbanas y desarrollo territorial",
-      formacion: [
-        "Arquitecto - Universidad La Gran Colombia",
-        "Especialista en Urbanismo",
-        "Especialista en Derecho Urbano",
-        "Magíster en Derecho y Gestión Urbanística – Universidad del Rosario"
-      ],
-      experienciaProfesional: [
-        "Presidente del Colegio Nacional de Curadores Urbanos 2025-2026",
-        "Coordinador de Vivienda de la ciudad de Montería",
-        "Director de la Política Departamental de Vivienda de Córdoba",
-        "Asesor en temas de desarrollo territorial de varios municipios en Colombia",
-        "Curador Urbano 1 de la ciudad de Montería 2015-2020 y 2021-2026"
-      ],
-      logros: [
-        "Fortalecimiento de la representación gremial a nivel nacional"
-      ]
+      experiencia: "Arquitecto de la Universidad La Gran Colombia, Especialista en Urbanismo - Especialista en Derecho Urbano Magíster en Derecho y Gestión Urbanística – Universidad del Rosario\n\nExperiencia laboral: Coordinador de Vivienda de la ciudad de Montería Director de la Política Departamental de Vivienda de Córdoba, Asesor en temas de desarrollo territorial de varios municipios en Colombia, Curador Urbano 1 de la ciudad de Montería 2015-2020 y 2021-2026 y actualmente Presidente del Colegio Nacional de Curadores Urbanos 2025-2026",
     }
   },
   { 
@@ -40,7 +24,7 @@ const juntaDirectiva = [
     foto: "/professional-architect.png",
     detalles: {
       posesion: "2 de enero de 2023",
-      experiencia: "Arquitecta con más de 30 años de experiencia en el sector público y privado",
+      experiencia: "Se posesiono el 2 de enero de 2023 como Curadora Urbana 1 de Cali, funge como Vicepresidenta del Colegio Nacional de Curadores Urbanos, acumula más de 30 años de experiencia en el sector público y privado dentro de su ejercicio profesional. Se desempeño como asesora de la secretaria de Planeación Municipal de Palmira, Coordinadora de Macroproyectos en la secretaria De vivienda Social y Hábitat del Distrito Especial de Santiago de Cali, Subdirectora de Infraestructura Vial del Departamento del Valle del Cauca y Directora de Planeación Territorial e Informática en el municipio de Yumbo.\n\nEgresada de la Universidad de San Buenaventura de Cali con:\n\n• Máster en Gestión de Ciudad y Planificación Urbana de la Universidad Oberta de Cataluña España\n• Maestría en Derecho y Gestión Urbana – Universidad del Rosario\n• Especialización en Paisajismo – Universidad del Valle\n• Especialización en Derecho Urbano – Universidad del Rosario\n• Múltiples especializaciones en la Universidad Oberta de Cataluña España",
       universidad: "Universidad de San Buenaventura de Cali",
       formacion: [
         "Máster en Gestión de Ciudad y Planificación Urbana - Universidad Oberta de Cataluña España",
@@ -64,25 +48,7 @@ const juntaDirectiva = [
     foto: "/professional-woman-engineer.png",
     detalles: {
       titulo: "Curadora Urbana 1 de Cúcuta",
-      encabezado: "Ingeniera civil, abogada, con 18 años de experiencia como Curadora Urbana",
-      formacion: [
-        "Ingeniera Civil - Universidad Francisco de Paula Santander",
-        "Abogada - Universidad de Santander",
-        "Especialista en Administración de la Construcción - Universidad Francisco de Paula Santander",
-        "Especialista en Planificación y Administración del Desarrollo Regional - Universidad de los Andes",
-        "Especialista en Derecho Inmobiliario Notarial y Urbanístico - Unilibre",
-        "Magister en Gestión Urbana - Universidad Piloto de Colombia",
-        "Cursando Especialización en Derecho Administrativo - Unilibre"
-      ],
-      experiencia: [
-        "Curadora Urbana 1 de Cúcuta (15-junio-2007 a la fecha)",
-        "Profesional Universitario área control físico y Ambiental",
-        "Directora (e) Planeación Municipal",
-        "Jefe (e) Estudios Socioeconómicos y Proyectos de inversión",
-        "Jefe Demarcación, nomenclatura y usos del suelo",
-        "12 años en Alcaldía de Cúcuta (13-01-1995 a 14-06-2007)",
-        "Docente modalidad cátedra Universidad Libre de Colombia seccionales Cúcuta y Socorro"
-      ]
+      experiencia: "Ingeniera Civil de la Universidad Francisco de Paula Santander, Abogada de la Universidad de Santander, Especialista en Administración de la Construcción de la Universidad Francisco de Paula Santander, en Planificación y Administración del Desarrollo Regional con énfasis Ordenamiento Territorial de la Universidad de los Andes, en Derecho Inmobiliario Notarial y Urbanístico en la Unilibre, Magister en Gestión Urbana Universidad Piloto de Colombia y cursando Especialización en Derecho Administrativo Unilibre.\n\n18 años experiencia como Curador Urbana 1 de Cúcuta (15-junio-2007 a la fecha)\n12 años experiencia en Alcaldía de Cúcuta 13-01-1995 a 14-06-2007 en cargos carrera administrativa: Profesional Universitario área control físico y Ambiental Departamento Administrativo de Planeación Municipal, Directora (e) Planeación Municipal, Jefe (e) Estudios Socioeconómicos y Proyectos de inversión encargada, Jefe Demarcación, nomenclatura y usos del suelo Departamento Administrativo de Control Urbano (1995-1996)\nDocente modalidad cátedra Universidad Libre de Colombia seccionales, Cúcuta y Socorro.",
     }
   },
 ]
@@ -95,26 +61,7 @@ const dignatarios = [
     foto: "/professional-man-doctor.png",
     detalles: {
       titulo: "Curadora Urbana 2 Ibagué",
-      encabezado: "Arquitecta con más de 20 años de experiencia profesional en el sector publico y privado",
-      formacion: [
-        "Arquitecta - Universidad la Gran Colombia",
-        "Especialista en Planeación Territorial - Fundación Universidad de América",
-        "Especialista en Derecho Urbano - Colegio Mayor de Nuestra Señora del Rosario"
-      ],
-      experiencia: [
-        "Curadora Urbana n° 2 de Ibagué en propiedad (desde junio 2021)",
-        "Curadora Urbana n° 1 de Ibagué en provisionalidad (2013-2014)",
-        "Directora de ordenamiento territorial – Alcaldía de Ibagué (2002-2003)",
-        "Asesora de municipios (Guamo, Cajamarca, Ambalema, Ibagué)",
-        "23 años como profesional independiente",
-        "Consultorías y asesorías para proyectos urbanísticos y arquitectónicos",
-        "CEO de Crecimiento Urbano SAS (desde 2017)",
-        "Director ejecutivo Sociedad Colombiana de Arquitectos Regional Tolima (1999-2000)"
-      ],
-      docencia: [
-        "Universidad Antonio Nariño (2000-2001) - metodología de la investigación, ética profesional",
-        "Universidad de Ibagué (2008-2009) - taller VII, construcción VI, urbanismo IV"
-      ]
+      experiencia: "Profesional de la arquitectura egresada de la Universidad la Gran Colombia, especialista en Planeación Territorial en la Fundación Universidad de América y en Derecho Urbano en el Colegio Mayor de Nuestra Señora del Rosario.\n\nCatedrática\nAños 2000 y 2001 - Universidad Antonio Nariño, facultad de arquitectura, (metodología de la investigación, ética profesional)\nAños 2008 y 2009 - Universidad de Ibagué, facultad de arquitectura, (taller VII, construcción VI, urbanismo IV)\n\n29 años Experiencia profesional\nSector Público (6 Años)\n- Directora de ordenamiento territorial – alcaldía de Ibagué (2002-2003)\n- Asesora de municipios (guamo 1999, Cajamarca 2001, Ambalema 2004, Ibagué 2001, 2020)\n- Función Pública – Curadora Urbana n° 1 de Ibagué en provisionalidad (enero de 2013 a 30 de julio de 2014)\n- Curadora Urbana n° 2 de Ibagué en propiedad desde el 22 de junio del año 2021 hasta la fecha.\n\nSector Privado (23 Años)\nProfesional independiente realizando:\n- Consultorías y asesorías para elaborar proyectos, diseño urbanístico, arquitectónico, instrumentos de planificación, interventorías de obra, prefactibilidad de proyectos, asesoría en ordenamiento territorial y análisis de normas nacionales y locales de varios municipios para verificar la ejecución de proyectos en ellos.\n- En la empresa que creé en el año 2017 (Crecimiento Urbano SAS) para desarrollar consultorías, asesorías y construcción.\n- Arquitecta asesora en constructoras.\n- Director ejecutivo sociedad colombiana de arquitectos regional Tolima (1999-2000)\n- Director administrativo proyecto de reconstrucción de los municipios de Roncesvalles y Cajamarca para el forec con la Sociedad Colombiana de Arquitectos Regional Tolima (1999 – 2000)",
     }
   },
   { 
@@ -124,26 +71,7 @@ const dignatarios = [
     foto: "/professional-woman-architect.png",
     detalles: {
       titulo: "Curador Urbano 1 de Barrancabermeja",
-      encabezado: "Arquitecto con 25 años de experiencia en proyectos de ordenamiento y planeación",
-      formacion: [
-        "Arquitecto - Universidad La Gran Colombia (25 años de experiencia)",
-        "Especialista en Planeamiento Urbano y Regional",
-        "Especialista en Espacio Público Construido",
-        "Magister en Planeación Urbana y Regional con énfasis en diseño urbano"
-      ],
-      experiencia: [
-        "Curador Urbano 1 de Barrancabermeja",
-        "Secretario de Planeación Municipal",
-        "Curador Suplente",
-        "Docente de maestría"
-      ],
-      especialidades: [
-        "Revisión de planes de ordenamiento territorial",
-        "Formulación de planes de mitigación de impactos",
-        "Planes parciales y unidades de planificación rural",
-        "Diseño de hospitales, centros universitarios, edificios multifamiliares"
-      ],
-      contacto: "yair.caicedo@curaduria1barrancabermeja.com.co"
+      experiencia: "Matrícula Profesional: A252000-16509055\nArquitecto Universidad La Gran Colombia\nEspecialista en Planeamiento Urbano y Regional\nEspecialista en Espacio Público Construido\nMagister en Planeación Urbana y Regional\nyair.caicedo@curaduria1barrancabermeja.com.co\n\nPerfil Profesional\nArquitecto, nacido el 27 de Agosto de 1975 en el distrito de Buenaventura (valle del cauca), en el año 1975, egresado de la universidad La Gran Colombia desde hace 25 años, Especialista en planeamiento urbano y regional, especialista en espacio público construido, magister en planeación urbana y regional con énfasis en diseño urbano, con experiencia de 25 años en proyectos de ordenamiento, planeación, diseño y norma urbana y arquitectónico específico Bogotá, Barrancabermeja Cali, Buenaventura, Santa Marta, Medellín, Ipiales, Tunja, Toca, Jagua de Ibirico y Ciudad de Panamá en: Revisión de planes de ordenamiento territorial, formulación de planes de mitigación de impactos planes de implantación de equipamientos colectivos, planes parciales, unidades de planificación rural, reglamentación de unidades de planeamiento zonal, norma urbana y rural, diseño de hospitales, centros universitarios y casas campestres, edificios multifamiliares, centros comerciales. Además de secretario de planeación municipal, Curador Suplente, docente de maestría y dos publicaciones en revistas indexadas y Actual Curador de Barrancabermeja.",
     }
   },
 
@@ -154,24 +82,7 @@ const dignatarios = [
     foto: "/professional-architect.png",
     detalles: {
       titulo: "Curador Urbano 1 Neiva",
-      experiencia: "Arquitecto con más de 40 años de experiencia en planeación urbana, desarrollo regional, estudios urbanísticos, ordenamiento territorial y gestión de proyectos",
-      formacion: [
-        "Arquitectura - Universidad Piloto de Colombia (1983)",
-        "Especialización en Evaluación Social de Proyectos - Universidad de los Andes (1997)",
-        "Especialización en Planeación Urbana y Regional - ESAP (1999)",
-        "Especialización en Planificación y Administración del Desarrollo Regional - Universidad de los Andes (2003)",
-        "Especialización en Derecho Urbano - Universidad Externado de Colombia (2006)",
-        "Maestría en Gestión Urbana - Universidad Piloto de Colombia (2012)"
-      ],
-      experienciaProfesional: [
-        "Departamento Administrativo de Planeación distrital – 13 años (1984-1997)",
-        "Curador Urbano – 28 años desde 1997 a la fecha"
-      ],
-      logros: [
-        "Formación avanzada en derecho urbano, evaluación social de proyectos",
-        "Especialización en planeación, administración y gestión urbana",
-        "Más de 40 años de experiencia en el sector urbanístico"
-      ]
+      experiencia: "Experiencia Profesional:\nDepartamento Administrativo de Planeación distrital – 13 años - 1984-1997\nCurador Urbano – 28 años desde 1997 a la fecha\n\nArquitecto con más de 40 años de experiencia en planeación urbana, desarrollo regional, estudios urbanísticos, ordenamiento territorial y gestión de proyectos etc. Cuenta con formación avanzada en áreas complementarias como derecho urbano, evaluación social de proyectos planeación administración y gestión urbana.\n\nFormación Académica:\n\n• Arquitectura, Universidad Piloto de Colombia (1983)\n• Especialización en Evaluación Social de Proyectos, Universidad de los Andes (1997)\n• Especialización en Planeación Urbana y Regional, ESAP (1999)\n• Especialización en Planificación y Administración del Desarrollo Regional, Universidad de los Andes (2003)\n• Especialización en Derecho Urbano, Universidad Externado de Colombia (2006)\n• Maestría en Gestión Urbana, Universidad Piloto de Colombia (2012)",
     }
   },
   { 
@@ -181,32 +92,7 @@ const dignatarios = [
     foto: "/professional-woman-engineer.png",
     detalles: {
       titulo: "Curadora Urbana 4 Medellín",
-      experiencia: "Abogada Magister en Procesos Urbanos y Ambientales, con experiencia específica para el sector público y privado en derecho administrativo, urbanístico e inmobiliario",
-      formacion: [
-        "Abogada",
-        "Magister en Procesos Urbanos y Ambientales",
-        "Especialista en Derecho Administrativo",
-        "Especialista en Gestión Pública",
-        "Especialista en Derecho Urbano",
-        "Especialista en Gestión de la Ciudad y del Territorio",
-        "Curso de especialización en Urbanismo y Desarrollo Sostenible (España)",
-        "Curso de especialización en Planificación Estratégica Territorial (Argentina)",
-        "Diplomados en Ordenamiento Territorial y Derecho Urbano",
-        "Cursos de Avalúos y Gestión del Suelo"
-      ],
-      experienciaProfesional: [
-        "Asesora jurídica en instrumentos de planificación, gestión y financiación",
-        "Formulación de Planes de Ordenamiento territorial",
-        "Macroproyectos urbanos y Planes Parciales",
-        "Elaboración y revisión de norma urbanística, planes locales",
-        "Estudio de títulos, procesos de negociación y titulación de predios",
-        "Procesos administrativos, urbanísticos y de Reglamento de Propiedad Horizontal"
-      ],
-      logros: [
-        "Designada como Curadora Urbana Cuarta de Medellín el 23 de junio de 2023",
-        "Especialización internacional en España y Argentina",
-        "Amplia experiencia en derecho administrativo e inmobiliario"
-      ]
+      experiencia: "Abogada Magister en Procesos Urbanos y Ambientales, Especialista en Derecho Administrativo, Gestión Pública, Derecho Urbano, Gestión de la Ciudad y del Territorio, cuenta con curso de especialización en Urbanismo y Desarrollo Sostenible (España), curso de especialización en Planificación Estratégica Territorial (Argentina), con Diplomados en Ordenamiento Territorial y Derecho Urbano, Cursos de Avalúos y Gestión del Suelo.\n\nExperiencia específica para el sector público y privado en derecho administrativo, urbanístico e inmobiliario, asesora jurídica en instrumentos de planificación, gestión y financiación, formulación de Planes de Ordenamiento territorial, Macroproyectos urbanos, Planes Parciales, elaboración y revisión de norma urbanística, planes locales, estudio de títulos, procesos de negociación y titulación de predios, en procesos administrativos, urbanísticos y de Reglamento de Propiedad Horizontal.\n\nDesignada como Curadora Urbana Cuarta de Medellín el 23 de junio de 2023.",
     }
   },
   { 
@@ -216,26 +102,7 @@ const dignatarios = [
     foto: "/professional-man-doctor.png",
     detalles: {
       titulo: "Curadora Urbana 1 de Puerto Colombia",
-      formacion: [
-        "Ingeniera Civil especialista en Derecho Urbano - Universidad Externado de Colombia",
-        "Especialista en Régimen de Propiedad Horizontal - Universidad de Cataluña"
-      ],
-      experiencia: "Amplia experiencia en temas relacionados con el ordenamiento del territorio y planificación urbana",
-      carreraProfesional: [
-        "Jefe de la División de Control Urbano y Espacio Público de Barranquilla",
-        "Asistente de los Curadores Urbanos Roque Amín Escaf y Luis Alviar Piedrahita",
-        "Curadora (E) en el Distrito de Barranquilla",
-        "Subgerente Técnico del Instituto Distrital de Urbanismo y Control IDUC",
-        "Curadora Primera del Distrito de Santa Marta",
-        "Curadora Primera del municipio de Puerto Colombia"
-      ],
-      proyectosDestacados: [
-        "Coordinación del estudio de Recuperación del Espacio Público del Centro Histórico de Barranquilla",
-        "Elaboración del Manual del Espacio Público de Barranquilla",
-        "Coordinación Interinstitucional del Plan Parcial del Barrio Siape",
-        "Formulación de múltiples Planes Parciales y UPR",
-        "Consultorías a empresas constructoras a nivel nacional"
-      ]
+      experiencia: "Ingeniera Civil especialista en Derecho Urbano de la Universidad Externado de Colombia y especialista en Régimen de Propiedad Horizontal de la Universidad de Cataluña. Con amplia experiencia en temas relacionados con el ordenamiento del territorio y planificación urbana. Ha desempeñado su carrera profesional en el desarrollo y control urbano.\n\nCarrera profesional en el desarrollo y control urbano, ejerciendo como:\n• Jefe de la División de Control Urbano y Espacio Público de Barranquilla.\n• Asistente de los Curadores Urbanos Roque Amín Escaf y Luis Alviar Piedrahita.\n• Curadora (E) en el Distrito de Barranquilla.\n• Subgerente Técnico del Instituto Distrital de Urbanismo y Control IDUC, coordinando el estudio de Recuperación del Espacio Público del Centro Histórico de Barranquilla y su área de influencia.\n• Elaboración del Manual del Espacio Público de Barranquilla, en calidad de Coordinadora -Asesora de la Cámara de Comercio de Barranquilla, destacándose la participación en la Coordinación Interinstitucional del Plan Parcial del Barrio Siape y su área de influencia\n• Formulación de múltiples Planes Parciales, UPR, revisiones de Planes de Ordenamiento Territorial además de Consultorías a empresas constructoras a nivel nacional.\n• Curadora Primera del Distrito de Santa Marta.\n• Curadora Primera del municipio de Puerto Colombia.",
     }
   },
 ]
@@ -248,22 +115,7 @@ const procuradores = [
     foto: "/professional-woman-architect.png",
     detalles: {
       titulo: "Coordinadora Nacional de Procuradores",
-      experiencia: "Arquitecta Universidad del Valle especialista en Ordenamiento y Gestión Integral del Territorio con 22 años como Curadora Urbana",
-      formacion: [
-        "Arquitecta Universidad del Valle",
-        "Especialista en Ordenamiento y Gestión Integral del Territorio"
-      ],
-      experienciaProfesional: [
-        "22 años de experiencia como Curadora Urbana",
-        "Liderazgo en coordinación nacional de procuradores",
-        "Gestión integral del territorio urbano",
-        "Supervisión de procesos de curadurías urbanas a nivel nacional"
-      ],
-      logros: [
-        "22 años de servicio continuo como Curadora Urbana",
-        "Designada como Coordinadora Nacional de Procuradores",
-        "Reconocida experiencia en ordenamiento territorial"
-      ]
+      experiencia: "Arquitecta de la Universidad La Gran Colombia, Especialista en Derecho Urbano de la Universidad Externado de Colombia y Magister en Gestión Urbana de la Universidad Piloto de Colombia.\n\nExperiencia Laboral\n\n• Curadora Urbana No. 1 de Tunja. Marzo de 2002 a Marzo de 2007.\n• Curadora Urbana No. 1 de Tunja. Julio de 2012 a Julio de 2017.\n• Curadora Urbana No. 1 de Tunja. Noviembre de 2017 a Noviembre 2022.\n• Curadora Urbana No. 2 (E) de Tunja. Mayo de 2019 a Octubre de 2021.\n• Curadora Urbana No. 1 de Tunja. Noviembre de 2022 a la fecha.\n• Catedrática Universidad Santo Tomás de Tunja.\n• Secretaria de Despacho- Secretaría de Infraestructura de la Alcaldía Mayor de Tunja.\n• Funcionaria de la Gobernación de Boyacá – Secretaría de Infraestructura Departamental – Jefe de Estudios y Diseños.\n• Jefe de Planeación Municipal de Moniquirá.",
     }
   },
   {
@@ -273,22 +125,7 @@ const procuradores = [
     foto: "/professional-woman-executive.png",
     detalles: {
       titulo: "Curadora Urbana 3 Manizales",
-      experiencia: "Arquitecta con especialización en Diseño Ambiental de la Universidad Nacional y amplia experiencia en curadurías urbanas y trámites urbanísticos",
-      formacion: [
-        "Arquitecta Universidad Nacional",
-        "Especialista en Diseño Ambiental"
-      ],
-      experienciaProfesional: [
-        "Curadora Urbana Tercera de Manizales",
-        "Gestión de trámites urbanísticos y licencias de construcción",
-        "Supervisión de proyectos arquitectónicos y urbanos",
-        "Evaluación de cumplimiento normativo urbanístico"
-      ],
-      logros: [
-        "Designada como Curadora Urbana Tercera de Manizales",
-        "Especialización en diseño ambiental aplicado al urbanismo",
-        "Reconocida trayectoria en gestión urbanística"
-      ]
+      experiencia: "Arquitecta de la Universidad Nacional de Colombia, sede Manizales. Especialista en Diseño Ambiental de la Universidad Nacional de Colombia, sede Manizales.\n\n• Curadora Urbana Tercera de Manizales. Enero de 2020 a la fecha.\n• Jefe de Control Urbano de la Secretaría de Planeación Municipal de Manizales.\n• Subdirectora Técnica de Planeación de la Secretaría de Planeación Municipal de Manizales.\n• Jefe del Departamento Administrativo de Planeación Municipal de Manizales.\n• Consultora independiente en temas urbanos, arquitectónicos y ambientales en Caldas y otros departamentos.\n• Gerente de Proyectos en empresa constructora.\n• Docente universitaria."
     }
   },
 ]
@@ -301,24 +138,7 @@ const colaboradores = [
     foto: "/professional-architect.png",
     detalles: {
       titulo: "Coordinadora Jurídica Nacional",
-      experiencia: "Abogada especialista en Derecho Urbano y Derecho Administrativo con cerca de 19 años de experiencia en análisis, aplicación y seguimiento de normativa urbanística",
-      formacion: [
-        "Abogada",
-        "Especialista en Derecho Urbano",
-        "Especialista en Derecho Administrativo"
-      ],
-      experienciaProfesional: [
-        "19 años de experiencia en normativa urbanística y administrativa",
-        "Análisis y aplicación de instrumentos de planificación urbana",
-        "Asesoría y acompañamiento jurídico a Curadores Urbanos",
-        "Gestión de instrumentos de planificación urbana",
-        "Seguimiento de normativa urbanística"
-      ],
-      logros: [
-        "Cerca de 19 años de experiencia especializada",
-        "Reconocida expertise en derecho urbano y administrativo",
-        "Liderazgo en coordinación jurídica nacional"
-      ]
+      experiencia: "Abogada, especialista en Derecho Urbano y Derecho Administrativo, con cerca de 19 años de experiencia en el análisis, aplicación y seguimiento de la normativa urbanística y administrativa. Amplia trayectoria en el estudio y gestión de instrumentos de planificación urbana, así como en la asesoría y acompañamiento jurídico en el ejercicio de la función de los Curadores Urbanos."
     }
   },
   { 
@@ -328,23 +148,7 @@ const colaboradores = [
     foto: "/professional-woman-engineer.png",
     detalles: {
       titulo: "Revisor Fiscal",
-      experiencia: "Contador Público Universidad de Medellín con especialización en Gestión Tributaria y amplia experiencia en revisión fiscal y contabilidad empresarial",
-      formacion: [
-        "Contador Público Universidad de Medellín",
-        "Especialista en Gestión Tributaria",
-        "Formación continua en normatividad contable y fiscal"
-      ],
-      experienciaProfesional: [
-        "Experiencia en revisión fiscal empresarial",
-        "Gestión contable y financiera",
-        "Asesoría en temas tributarios y fiscales",
-        "Implementación de controles internos contables"
-      ],
-      logros: [
-        "Designado como Revisor Fiscal",
-        "Especialización en gestión tributaria",
-        "Reconocida trayectoria en contabilidad empresarial"
-      ]
+      experiencia: "Contador Público de la Universidad de Medellín, Especialista en Gestión Tributaria de la Universidad de Medellín.\n\nExperiencia Laboral\n\n• Revisor Fiscal del Colegio Nacional de Curadores Urbanos. Febrero de 2016 a la fecha.\n• Contador. Noviembre de 2006 a febrero de 2016.\n• Asesor Contable y Tributario Independiente. 2002 a 2006.\n• Contador de empresas del sector privado. 1998 a 2002."
     }
   },
   { 
@@ -354,23 +158,7 @@ const colaboradores = [
     foto: "/professional-man-doctor.png",
     detalles: {
       titulo: "Secretaria General",
-      experiencia: "Profesional con amplia experiencia en gestión administrativa y secretarial, especializada en coordinación de juntas directivas y manejo de documentación oficial",
-      formacion: [
-        "Formación en gestión administrativa",
-        "Especialización en secretariado ejecutivo",
-        "Capacitación en manejo de documentación oficial"
-      ],
-      experienciaProfesional: [
-        "Gestión y coordinación de reuniones de junta directiva",
-        "Manejo de correspondencia y documentación oficial",
-        "Coordinación administrativa y logística",
-        "Apoyo en la toma de decisiones ejecutivas"
-      ],
-      logros: [
-        "Designada como Secretaria General",
-        "Reconocida eficiencia en gestión administrativa",
-        "Experiencia en coordinación de órganos directivos"
-      ]
+      experiencia: "Tecnóloga en Sistematización de Datos del Politécnico Colombiano \"Jaime Isaza Cadavid\". Técnica Profesional en Secretariado Ejecutivo Bilingüe del Politécnico Grancolombiano.\n\nExperiencia Laboral\n\n• Secretaria General del Colegio Nacional de Curadores Urbanos. Agosto de 2002 a la fecha.\n• Secretaria Ejecutiva de empresa del sector privado.\n• Secretaria de Gerencia de empresa del sector privado.\n• Secretaria de Contaduría de empresa del sector privado."
     }
   },
   {
@@ -380,31 +168,7 @@ const colaboradores = [
     foto: "/professional-woman-architect.png",
     detalles: {
       titulo: "Curadora Urbana Segunda de Medellín",
-      experiencia: "Arquitecta Universidad Nacional con 35 años de experiencia, especialista en Administración Pública, Gestión Urbana y Derecho Urbano. Ex-presidenta de la Junta Directiva del Colegio Nacional de Curadores",
-      formacion: [
-        "Arquitecta Universidad Nacional de Colombia",
-        "Especialista en Administración Pública - ESAP",
-        "Especialista en Gestión y Procesos Urbanos - Escuela de Ingeniería de Antioquia",
-        "Especialista en Derecho Urbano - Universidad Externado de Colombia"
-      ],
-      experienciaProfesional: [
-        "35 años de experiencia profesional",
-        "Curadora Urbana Tercera de Medellín (2007-2018)",
-        "Curadora Urbana Segunda y Cuarta de Medellín (2014-2018)",
-        "Curadora Urbana Segunda de Medellín (desde junio 2023)",
-        "Presidenta Junta Directiva Colegio Nacional de Curadores (2 años)",
-        "Secretaria de Planeación y Desarrollo Municipal - La Estrella",
-        "Directora de Planeación Metropolitana - Área Metropolitana Valle de Aburrá",
-        "Consultora Corantioquia, Concejo Municipal La Estrella, Municipio de Medellín"
-      ],
-      logros: [
-        "35 años de trayectoria profesional",
-        "11 años como Curadora Urbana de Medellín",
-        "2 años como Presidenta del Colegio Nacional de Curadores",
-        "Participación en revisión del POT de Medellín",
-        "9 años como Coordinadora de Formulación del POT La Estrella",
-        "5 años en cargos directivos Área Metropolitana Valle de Aburrá"
-      ]
+      experiencia: "Arquitecta, egresada de la Facultad de Arquitectura de la Universidad Nacional de Colombia. Es Especialista en Administración Pública de la Escuela Superior de Administración Pública – ESAP, Especialista en Gestión y Procesos Urbanos de la Escuela de Ingeniería de Antioquia y Especialista en Derecho Urbano de la Universidad Externado de Colombia.\n\nCon una experiencia de 35 años, desde julio de 2007 y hasta octubre del año 2018, previo concursos de méritos, se desempeñó como Curadora Urbana Tercera de Medellín. Entre los años 2014 y 2018, por designación del Alcalde de la ciudad, ocupó en provisionalidad los cargos de Curadora Urbana Segunda y Cuarta de Medellín. Entre el año 2015 y 2018 fue miembro de la Junta Directiva del Colegio Nacional de Curadores, siendo su Presidente durante dos años.\n\nSe ha desempeñado como Consultora para Corantioquia en el tema de Espacio Público, para el Concejo Municipal de La Estrella como asesora en asuntos inherentes a la gestión pública y a la planeación y para el Municipio de Medellín en el proceso de revisión del Plan de Ordenamiento Territorial. Para la empresa privada ha prestado sus servicios como Asesora Técnica en la aplicación de los requisitos, trámites y normas para la obtención de Licencias de Urbanismo y Construcción, así como en la interpretación y aplicación de las normas urbanísticas y de construcción.\n\nFue Secretaria de Planeación y Desarrollo Municipal, Secretaria Privada y Secretaria de Gobierno en el Municipio de La Estrella, así como Coordinadora para la Formulación del Plan de Ordenamiento Territorial y Asesora de Planeación por espacio de nueve años. En el Área Metropolitana del Valle de Aburrá se desempeñó como Jefe de Departamento de Planeación y Desarrollo Metropolitano, Directora de Planeación Metropolitana y Asesora Técnica Municipal por un período de cinco años. En el municipio de Girardota fue Secretaria de Planeación y Obras.\n\nDesde junio de 2023 se desempeña como Curadora Urbana Segunda de Medellín."
     }
   },
 ]
@@ -794,13 +558,64 @@ export default function PresentacionJunta() {
       <div className="h-1 bg-gradient-to-r from-[#2c4687] via-[#8a94bb] to-[#2c4687]"></div>
 
       {/* Contenido principal estilo CV */}
-      <div className="bg-gray-50 min-h-screen">
-        <div className="container mx-auto px-8 py-16">
+      <div className="bg-gray-50 min-h-screen relative">
+        
+        {/* Elementos decorativos en los espacios laterales FUERA del container */}
+        <div className="absolute inset-0 pointer-events-none overflow-hidden">
+          
+          {/* Lado IZQUIERDO - Solo 2 elementos */}
+          <div className="absolute left-0 top-0 w-32 h-full">
+            <div className="absolute top-1/3 left-6 w-12 h-12 bg-[#2c4687]/8 rounded-full animate-pulse" style={{ animationDelay: '0s', animationDuration: '4s' }}></div>
+            <div className="absolute bottom-1/3 left-4 w-8 h-8 bg-[#8a94bb]/10 rotate-45 animate-spin" style={{ animationDelay: '2s', animationDuration: '8s' }}></div>
+          </div>
+          
+          {/* Lado DERECHO - Solo 2 elementos */}
+          <div className="absolute right-0 top-0 w-32 h-full">
+            <div className="absolute top-1/3 right-6 w-10 h-10 bg-[#8a94bb]/8 rounded-full animate-bounce" style={{ animationDelay: '1s', animationDuration: '5s' }}></div>
+            <div className="absolute bottom-1/3 right-4 w-6 h-6 bg-[#2c4687]/10 rotate-45 animate-spin" style={{ animationDelay: '3s', animationDuration: '7s' }}></div>
+          </div>
+          
+        </div>
+        
+        <div className="container mx-auto px-8 py-16 relative z-10">
           
           {/* Sección "Sobre Mí" - Estilo más fiel al CV de Angela */}
-          <div className="py-20">
+          <div className="py-0 relative overflow-hidden">
+            
+            {/* Elementos decorativos animados de fondo */}
+            <div className="absolute inset-0 pointer-events-none">
+              {/* Elementos en el área exterior del contenido principal */}
+              
+              {/* Esquina superior izquierda */}
+              <div className="absolute top-16 left-16 w-12 h-12 bg-[#2c4687]/10 rounded-full animate-pulse" style={{ animationDelay: '0s', animationDuration: '4s' }}></div>
+              <div className="absolute top-32 left-8 w-8 h-8 bg-[#8a94bb]/12 rounded-full animate-bounce" style={{ animationDelay: '2s', animationDuration: '5s' }}></div>
+              
+              {/* Esquina superior derecha */}
+              <div className="absolute top-20 right-16 w-10 h-10 bg-[#8a94bb]/10 rounded-full animate-bounce" style={{ animationDelay: '1s', animationDuration: '4s' }}></div>
+              <div className="absolute top-8 right-8 w-6 h-6 bg-[#2c4687]/12 rounded-full animate-pulse" style={{ animationDelay: '3s', animationDuration: '6s' }}></div>
+              
+              {/* Esquina inferior izquierda */}
+              <div className="absolute bottom-20 left-12 w-14 h-14 bg-[#2c4687]/8 rounded-full animate-bounce" style={{ animationDelay: '2.5s', animationDuration: '5s' }}></div>
+              <div className="absolute bottom-8 left-20 w-8 h-8 bg-[#8a94bb]/10 rounded-full animate-pulse" style={{ animationDelay: '4s', animationDuration: '4s' }}></div>
+              
+              {/* Esquina inferior derecha */}
+              <div className="absolute bottom-16 right-12 w-12 h-12 bg-[#8a94bb]/8 rounded-full animate-pulse" style={{ animationDelay: '1.5s', animationDuration: '5s' }}></div>
+              <div className="absolute bottom-32 right-20 w-6 h-6 bg-[#2c4687]/12 rounded-full animate-bounce" style={{ animationDelay: '3.5s', animationDuration: '4s' }}></div>
+              
+              {/* Elementos en los márgenes laterales del contenido */}
+              <div className="absolute top-1/3 left-24 w-6 h-6 bg-[#2c4687]/10 rotate-45 animate-spin" style={{ animationDelay: '2s', animationDuration: '8s' }}></div>
+              <div className="absolute top-2/3 right-24 w-8 h-8 bg-[#8a94bb]/10 rotate-45 animate-spin" style={{ animationDelay: '4s', animationDuration: '10s' }}></div>
+              
+              {/* Líneas decorativas sutiles en los márgenes */}
+              <div className="absolute top-1/4 left-12 w-16 h-1 bg-gradient-to-r from-[#2c4687]/15 to-transparent animate-pulse" style={{ animationDelay: '3s', animationDuration: '5s' }}></div>
+              <div className="absolute bottom-1/4 right-12 w-20 h-1 bg-gradient-to-l from-[#8a94bb]/15 to-transparent animate-pulse" style={{ animationDelay: '1s', animationDuration: '6s' }}></div>
+              
+              {/* Triángulos pequeños en los espacios libres */}
+              <div className="absolute top-1/2 left-16 w-0 h-0 border-l-[6px] border-r-[6px] border-b-[10px] border-l-transparent border-r-transparent border-b-[#2c4687]/10 animate-bounce" style={{ animationDelay: '5s', animationDuration: '4s' }}></div>
+              <div className="absolute top-1/2 right-16 w-0 h-0 border-l-[8px] border-r-[8px] border-b-[12px] border-l-transparent border-r-transparent border-b-[#8a94bb]/10 animate-bounce" style={{ animationDelay: '2.5s', animationDuration: '6s' }}></div>
+            </div>
             {/* Título con efecto superpuesto igual al CV de Angela */}
-            <div className="relative flex items-center justify-center mb-16">
+            <div className="relative flex items-center justify-center mb-8 z-10">
               <h1 
                 className="text-8xl font-bold text-gray-100 uppercase tracking-widest"
                 style={{ WebkitTextStroke: '1px #dee2e6' }}
@@ -808,22 +623,22 @@ export default function PresentacionJunta() {
                 SOBRE
               </h1>
               <h1 className="absolute text-4xl font-bold text-[#2c4687] uppercase tracking-wide">
-                SOBRE {miembro.nombre.split(' ')[0]}
+                {miembro.nombre}
               </h1>
             </div>
             
             {/* Layout igual al CV: imagen izquierda, contenido derecha */}
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center relative z-10">
               
               {/* Logo del Colegio lado izquierdo (5 columnas como en el CV) */}
               <div className="lg:col-span-5">
                 <div className="relative">
-                  <div className="w-full h-96 bg-white rounded-lg flex items-center justify-center shadow-lg border-2 border-gray-200">
+                  <div className="w-full h-[500px] bg-white rounded-lg flex items-center justify-center shadow-lg border-2 border-gray-200">
                     <Image
                       src="/logo-cncu.png"
                       alt="Logo Colegio Nacional de Curadores Urbanos"
-                      width={280}
-                      height={280}
+                      width={600}
+                      height={600}
                       className="object-contain"
                     />
                   </div>
@@ -833,195 +648,23 @@ export default function PresentacionJunta() {
               {/* Contenido lado derecho (7 columnas como en el CV) */}
               <div className="lg:col-span-7">
                 
-                {/* Título del cargo como "Psicóloga" */}
-                <h3 className="text-3xl font-semibold text-gray-800 mb-6">
-                  {miembro.cargo}
-                </h3>
-                
-                {/* Descripción/experiencia como párrafo principal */}
-                {(miembro as any).detalles?.experiencia && typeof (miembro as any).detalles.experiencia === 'string' && (
-                  <p className="text-gray-600 leading-relaxed text-lg mb-8">
-                    {(miembro as any).detalles.experiencia}
-                  </p>
-                )}
-                
-                {/* Grid de información personal exactamente como el CV de Angela */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-                  
-                  {/* Columna izquierda */}
-                  <div className="space-y-4">
-                    <div className="py-2">
-                      <h6 className="text-gray-800 font-semibold">
-                        Nombre: <span className="text-gray-600 font-normal">{miembro.nombre}</span>
-                      </h6>
+                {/* Título del cargo con diseño especial */}
+                <div className="mb-6">
+                  <div className="inline-block relative">
+                    <div className="bg-gradient-to-r from-[#2c4687] to-[#3b5398] px-8 py-4 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
+                      <h3 className="text-3xl font-bold text-white tracking-wide text-center">
+                        {miembro.cargo}
+                      </h3>
                     </div>
-                    
-                    <div className="py-2">
-                      <h6 className="text-gray-800 font-semibold">
-                        Ubicación: <span className="text-gray-600 font-normal">Colombia</span>
-                      </h6>
-                    </div>
-                    
-                    <div className="py-2">
-                      <h6 className="text-gray-800 font-semibold">
-                        Estudio: <span className="text-gray-600 font-normal">Profesional</span>
-                      </h6>
-                    </div>
-                  </div>
-                  
-                  {/* Columna derecha */}
-                  <div className="space-y-4">
-                    <div className="py-2">
-                      <h6 className="text-gray-800 font-semibold">
-                        Cargo: <span className="text-gray-600 font-normal">{miembro.cargo}</span>
-                      </h6>
-                    </div>
-                    
-                    {(miembro as any).detalles?.posesion && (
-                      <div className="py-2">
-                        <h6 className="text-gray-800 font-semibold">
-                          En el cargo desde: <span className="text-gray-600 font-normal">{(miembro as any).detalles.posesion}</span>
-                        </h6>
-                      </div>
-                    )}
-                    
-                    {(miembro as any).detalles?.formacion && (
-                      <div className="py-2">
-                        <h6 className="text-gray-800 font-semibold">
-                          Formaciones: <span className="text-gray-600 font-normal">{(miembro as any).detalles.formacion.length}</span>
-                        </h6>
-                      </div>
-                    )}
+                    {/* Efecto de sombra decorativa */}
+                    <div className="absolute -bottom-2 -right-2 w-full h-full bg-[#2c4687]/20 rounded-2xl -z-10"></div>
                   </div>
                 </div>
                 
-                {/* Botón como en el CV original */}
-                <Button 
-                  className="bg-transparent border-2 border-[#2c4687] text-[#2c4687] hover:bg-[#2c4687] hover:text-white px-8 py-3 font-semibold tracking-wide transition-all duration-300"
-                  variant="outline"
-                >
-                  Conoce más
-                </Button>
-              </div>
-            </div>
-          </div>
-
-          {/* Sección de Formación y Experiencia - Estilo CV Angela */}
-          <div className="py-20">
-            
-            {/* Título con efecto superpuesto */}
-            <div className="relative flex items-center justify-center mb-16">
-              <h1 
-                className="text-8xl font-bold text-gray-100 uppercase tracking-widest"
-                style={{ WebkitTextStroke: '1px #dee2e6' }}
-              >
-                FORMACIÓN
-              </h1>
-              <h1 className="absolute text-4xl font-bold text-[#2c4687] uppercase tracking-wide">
-                FORMACIÓN
-              </h1>
-            </div>
-            
-            {/* Grid de 2 columnas igual al CV de Angela */}
-            <div className="container mx-auto px-8">
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
-                
-                {/* Columna izquierda - Formación Académica */}
-                {(miembro as any).detalles?.formacion && (
-                  <div>
-                    <h3 className="text-2xl font-semibold text-gray-800 mb-8">Mi Educación</h3>
-                    
-                    {/* Timeline con borde izquierdo igual al CV */}
-                    <div className="border-l-4 border-[#2c4687] pt-2 pl-8 ml-2">
-                      {(miembro as any).detalles.formacion.map((item: string, index: number) => (
-                        <div key={index} className="relative mb-8">
-                          {/* Círculo en la línea de tiempo */}
-                          <div 
-                            className="absolute w-4 h-4 bg-[#2c4687] rounded-full border-4 border-white shadow-lg"
-                            style={{ top: '2px', left: '-42px' }}
-                          ></div>
-                          
-                          <div>
-                            <h5 className="font-bold text-gray-800 mb-2 text-lg uppercase">
-                              {item.split(' - ')[0] || item.split(' | ')[0] || item}
-                            </h5>
-                            {(item.includes(' - ') || item.includes(' | ')) && (
-                              <p className="mb-2 text-gray-700">
-                                <strong>{item.split(' - ')[1] || item.split(' | ')[1]} | </strong>
-                                <small className="text-gray-600">Colombia</small>
-                              </p>
-                            )}
-                            {index === 0 && (miembro as any).detalles?.experiencia && (
-                              <p className="text-gray-600 leading-relaxed">
-                                {typeof (miembro as any).detalles.experiencia === 'string' 
-                                  ? (miembro as any).detalles.experiencia.slice(0, 200) + '...'
-                                  : 'Formación especializada en el área profesional correspondiente.'
-                                }
-                              </p>
-                            )}
-                          </div>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                )}
-
-                {/* Columna derecha - Experiencia/Logros */}
-                {((miembro as any).detalles?.experienciaProfesional || (miembro as any).detalles?.logros) && (
-                  <div>
-                    <h3 className="text-2xl font-semibold text-gray-800 mb-8">
-                      {(miembro as any).detalles?.logros ? 'Logros y Participaciones' : 'Experiencia Profesional'}
-                    </h3>
-                    
-                    {/* Timeline con borde izquierdo igual al CV */}
-                    <div className="border-l-4 border-[#2c4687] pt-2 pl-8 ml-2">
-                      
-                      {/* Mostrar logros primero si existen */}
-                      {(miembro as any).detalles?.logros && (miembro as any).detalles.logros.map((item: string, index: number) => (
-                        <div key={`logro-${index}`} className="relative mb-8">
-                          <div 
-                            className="absolute w-4 h-4 bg-[#2c4687] rounded-full border-4 border-white shadow-lg"
-                            style={{ top: '2px', left: '-42px' }}
-                          ></div>
-                          
-                          <div>
-                            <h5 className="font-bold text-gray-800 mb-2 text-lg uppercase">
-                              LOGRO DESTACADO
-                            </h5>
-                            <p className="mb-2 text-gray-700">
-                              <strong>Colegio Nacional de Curadores Urbanos | </strong>
-                              <small className="text-gray-600">Colombia | 2025</small>
-                            </p>
-                            <p className="text-gray-600 leading-relaxed">{item}</p>
-                          </div>
-                        </div>
-                      ))}
-                      
-                      {/* Luego experiencia profesional */}
-                      {(miembro as any).detalles?.experienciaProfesional && (miembro as any).detalles.experienciaProfesional.slice(0, 4).map((item: string, index: number) => (
-                        <div key={`exp-${index}`} className="relative mb-8">
-                          <div 
-                            className="absolute w-4 h-4 bg-[#2c4687] rounded-full border-4 border-white shadow-lg"
-                            style={{ top: '2px', left: '-42px' }}
-                          ></div>
-                          
-                          <div>
-                            <h5 className="font-bold text-gray-800 mb-2 text-lg uppercase">
-                              {item.split(' | ')[0] || item.split(' - ')[0] || item.split(' en ')[0] || item}
-                            </h5>
-                            <p className="mb-2 text-gray-700">
-                              <strong>
-                                {item.includes(' | ') ? item.split(' | ')[1] : 
-                                 item.includes(' - ') ? item.split(' - ')[1] :
-                                 item.includes(' de ') ? item.split(' de ')[1] : 
-                                 'Institución'} | 
-                              </strong>
-                              <small className="text-gray-600"> Colombia</small>
-                            </p>
-                          </div>
-                        </div>
-                      ))}
-                    </div>
+                {/* Descripción/experiencia como párrafo principal */}
+                {(miembro as any).detalles?.experiencia && typeof (miembro as any).detalles.experiencia === 'string' && (
+                  <div className="text-gray-600 leading-relaxed text-lg mb-8 whitespace-pre-line">
+                    {(miembro as any).detalles.experiencia}
                   </div>
                 )}
               </div>
