@@ -61,6 +61,56 @@ const juntaDirectiva = [
       experiencia: "Arquitecta, egresada de la Facultad de Arquitectura de la Universidad Nacional de Colombia. Es Especialista en Administración Pública de la Escuela Superior de Administración Pública – ESAP, Especialista en Gestión y Procesos Urbanos de la Escuela de Ingeniería de Antioquia y Especialista en Derecho Urbano de la Universidad Externado de Colombia.\n\nCon una experiencia de 35 años, desde julio de 2007 y hasta octubre del año 2018, previo concursos de méritos, se desempeñó como Curadora Urbana Tercera de Medellín. Entre los años 2014 y 2018, por designación del Alcalde de la ciudad, ocupó en provisionalidad los cargos de Curadora Urbana Segunda y Cuarta de Medellín. Entre el año 2015 y 2018 fue miembro de la Junta Directiva del Colegio Nacional de Curadores, siendo su Presidente durante dos años.\n\nSe ha desempeñado como Consultora para Corantioquia en el tema de Espacio Público, para el Concejo Municipal de La Estrella como asesora en asuntos inherentes a la gestión pública y a la planeación y para el Municipio de Medellín en el proceso de revisión del Plan de Ordenamiento Territorial. Para la empresa privada ha prestado sus servicios como Asesora Técnica en la aplicación de los requisitos, trámites y normas para la obtención de Licencias de Urbanismo y Construcción, así como en la interpretación y aplicación de las normas urbanísticas y de construcción.\n\nFue Secretaria de Planeación y Desarrollo Municipal, Secretaria Privada y Secretaria de Gobierno en el Municipio de La Estrella, así como Coordinadora para la Formulación del Plan de Ordenamiento Territorial y Asesora de Planeación por espacio de nueve años. En el Área Metropolitana del Valle de Aburrá se desempeñó como Jefe de Departamento de Planeación y Desarrollo Metropolitano, Directora de Planeación Metropolitana y Asesora Técnica Municipal por un período de cinco años. En el municipio de Girardota fue Secretaria de Planeación y Obras.\n\nDesde junio de 2023 se desempeña como Curadora Urbana Segunda de Medellín."
     }
   },
+  { 
+    id: 4, 
+    nombre: "Sandra del Pilar Pardo Suárez", 
+    cargo: "Dignatario", 
+    foto: "/professional-man-doctor.png",
+    detalles: {
+      titulo: "Curadora Urbana 2 Ibagué",
+      experiencia: "Profesional de la arquitectura egresada de la Universidad la Gran Colombia, especialista en Planeación Territorial en la Fundación Universidad de América y en Derecho Urbano en el Colegio Mayor de Nuestra Señora del Rosario.\n\nCatedrática\nAños 2000 y 2001 - Universidad Antonio Nariño, facultad de arquitectura, (metodología de la investigación, ética profesional)\nAños 2008 y 2009 - Universidad de Ibagué, facultad de arquitectura, (taller VII, construcción VI, urbanismo IV)\n\n29 años Experiencia profesional\nSector Público (6 Años)\n- Directora de ordenamiento territorial – alcaldía de Ibagué (2002-2003)\n- Asesora de municipios (guamo 1999, Cajamarca 2001, Ambalema 2004, Ibagué 2001, 2020)\n- Función Pública – Curadora Urbana n° 1 de Ibagué en provisionalidad (enero de 2013 a 30 de julio de 2014)\n- Curadora Urbana n° 2 de Ibagué en propiedad desde el 22 de junio del año 2021 hasta la fecha.\n\nSector Privado (23 Años)\nProfesional independiente realizando:\n- Consultorías y asesorías para elaborar proyectos, diseño urbanístico, arquitectónico, instrumentos de planificación, interventorías de obra, prefactibilidad de proyectos, asesoría en ordenamiento territorial y análisis de normas nacionales y locales de varios municipios para verificar la ejecución de proyectos en ellos.\n- En la empresa que creé en el año 2017 (Crecimiento Urbano SAS) para desarrollar consultorías, asesorías y construcción.\n- Arquitecta asesora en constructoras.\n- Director ejecutivo sociedad colombiana de arquitectos regional Tolima (1999-2000)\n- Director administrativo proyecto de reconstrucción de los municipios de Roncesvalles y Cajamarca para el forec con la Sociedad Colombiana de Arquitectos Regional Tolima (1999 – 2000)",
+    }
+  },
+  { 
+    id: 5, 
+    nombre: "Jose Yair Caicedo Palacios", 
+    cargo: "Dignatario", 
+    foto: "/professional-woman-architect.png",
+    detalles: {
+      titulo: "Curador Urbano 1 de Barrancabermeja",
+      experiencia: "Matrícula Profesional: A252000-16509055\nArquitecto Universidad La Gran Colombia\nEspecialista en Planeamiento Urbano y Regional\nEspecialista en Espacio Público Construido\nMagister en Planeación Urbana y Regional\nyair.caicedo@curaduria1barrancabermeja.com.co\n\nPerfil Profesional\nArquitecto, nacido el 27 de Agosto de 1975 en el distrito de Buenaventura (valle del cauca), en el año 1975, egresado de la universidad La Gran Colombia desde hace 25 años, Especialista en planeamiento urbano y regional, especialista en espacio público construido, magister en planeación urbana y regional con énfasis en diseño urbano, con experiencia de 25 años en proyectos de ordenamiento, planeación, diseño y norma urbana y arquitectónico específico Bogotá, Barrancabermeja Cali, Buenaventura, Santa Marta, Medellín, Ipiales, Tunja, Toca, Jagua de Ibirico y Ciudad de Panamá en: Revisión de planes de ordenamiento territorial, formulación de planes de mitigación de impactos planes de implantación de equipamientos colectivos, planes parciales, unidades de planificación rural, reglamentación de unidades de planeamiento zonal, norma urbana y rural, diseño de hospitales, centros universitarios y casas campestres, edificios multifamiliares, centros comerciales. Además de secretario de planeación municipal, Curador Suplente, docente de maestría y dos publicaciones en revistas indexadas y Actual Curador de Barrancabermeja.",
+    }
+  },
+  { 
+    id: 7, 
+    nombre: "Mauricio Vargas Cuellar", 
+    cargo: "Dignatario", 
+    foto: "/professional-architect.png",
+    detalles: {
+      titulo: "Curador Urbano 1 Neiva",
+      experiencia: "Experiencia Profesional:\nDepartamento Administrativo de Planeación distrital – 13 años - 1984-1997\nCurador Urbano – 28 años desde 1997 a la fecha\n\nArquitecto con más de 40 años de experiencia en planeación urbana, desarrollo regional, estudios urbanísticos, ordenamiento territorial y gestión de proyectos etc. Cuenta con formación avanzada en áreas complementarias como derecho urbano, evaluación social de proyectos planeación administración y gestión urbana.\n\nFormación Académica:\n\n• Arquitectura, Universidad Piloto de Colombia (1983)\n• Especialización en Evaluación Social de Proyectos, Universidad de los Andes (1997)\n• Especialización en Planeación Urbana y Regional, ESAP (1999)\n• Especialización en Planificación y Administración del Desarrollo Regional, Universidad de los Andes (2003)\n• Especialización en Derecho Urbano, Universidad Externado de Colombia (2006)\n• Maestría en Gestión Urbana, Universidad Piloto de Colombia (2012)",
+    }
+  },
+  { 
+    id: 8, 
+    nombre: "Janeth Arango Castaño", 
+    cargo: "Dignatario", 
+    foto: "/professional-woman-engineer.png",
+    detalles: {
+      titulo: "Curadora Urbana 4 Medellín",
+      experiencia: "Abogada Magister en Procesos Urbanos y Ambientales, Especialista en Derecho Administrativo, Gestión Pública, Derecho Urbano, Gestión de la Ciudad y del Territorio, cuenta con curso de especialización en Urbanismo y Desarrollo Sostenible (España), curso de especialización en Planificación Estratégica Territorial (Argentina), con Diplomados en Ordenamiento Territorial y Derecho Urbano, Cursos de Avalúos y Gestión del Suelo.\n\nExperiencia específica para el sector público y privado en derecho administrativo, urbanístico e inmobiliario, asesora jurídica en instrumentos de planificación, gestión y financiación, formulación de Planes de Ordenamiento territorial, Macroproyectos urbanos, Planes Parciales, elaboración y revisión de norma urbanística, planes locales, estudio de títulos, procesos de negociación y titulación de predios, en procesos administrativos, urbanísticos y de Reglamento de Propiedad Horizontal.\n\nDesignada como Curadora Urbana Cuarta de Medellín el 23 de junio de 2023.",
+    }
+  },
+  { 
+    id: 9, 
+    nombre: "Dennys Esther Valverde Sanchez", 
+    cargo: "Dignatario", 
+    foto: "/professional-man-doctor.png",
+    detalles: {
+      titulo: "Curadora Urbana 1 de Puerto Colombia",
+      experiencia: "Ingeniera Civil especialista en Derecho Urbano de la Universidad Externado de Colombia y especialista en Régimen de Propiedad Horizontal de la Universidad de Cataluña. Con amplia experiencia en temas relacionados con el ordenamiento del territorio y planificación urbana. Ha desempeñado su carrera profesional en el desarrollo y control urbano.\n\nCarrera profesional en el desarrollo y control urbano, ejerciendo como:\n• Jefe de la División de Control Urbano y Espacio Público de Barranquilla.\n• Asistente de los Curadores Urbanos Roque Amín Escaf y Luis Alviar Piedrahita.\n• Curadora (E) en el Distrito de Barranquilla.\n• Subgerente Técnico del Instituto Distrital de Urbanismo y Control IDUC, coordinando el estudio de Recuperación del Espacio Público del Centro Histórico de Barranquilla y su área de influencia.\n• Elaboración del Manual del Espacio Público de Barranquilla, en calidad de Coordinadora -Asesora de la Cámara de Comercio de Barranquilla, destacándose la participación en la Coordinación Interinstitucional del Plan Parcial del Barrio Siape y su área de influencia\n• Formulación de múltiples Planes Parciales, UPR, revisiones de Planes de Ordenamiento Territorial además de Consultorías a empresas constructoras a nivel nacional.\n• Curadora Primera del Distrito de Santa Marta.\n• Curadora Primera del municipio de Puerto Colombia.",
+    }
+  },
 ]
 
 const dignatarios = [
@@ -144,10 +194,10 @@ const colaboradores = [
   {
     id: 12,
     nombre: "Fanny Adriana Leon Acero",
-    cargo: "Coordinadora Jurídica Nacional",
+    cargo: "Coordinadora Nacional",
     foto: "/professional-architect.png",
     detalles: {
-      titulo: "Coordinadora Jurídica Nacional",
+      titulo: "Coordinadora Nacional",
       experiencia: "Abogada, especialista en Derecho Urbano y Derecho Administrativo, con cerca de 19 años de experiencia en el análisis, aplicación y seguimiento de la normativa urbanística y administrativa. Amplia trayectoria en el estudio y gestión de instrumentos de planificación urbana, así como en la asesoría y acompañamiento jurídico en el ejercicio de la función de los Curadores Urbanos."
     }
   },
@@ -173,7 +223,7 @@ const colaboradores = [
   },
 ]
 
-const todosMiembros = [...juntaDirectiva, ...dignatarios, ...procuradores, ...colaboradores]
+const todosMiembros = [...juntaDirectiva, ...procuradores, ...colaboradores]
 
 export default function PresentacionJunta() {
   const [currentSlide, setCurrentSlide] = useState(0)
@@ -399,42 +449,8 @@ export default function PresentacionJunta() {
             </div>
           </div>
 
-          {/* Dignatarios */}
-          <div className="animate-fade-in delay-200">
-            <div className="mb-8">
-              <h2 className="text-2xl font-semibold text-[#2c4687] mb-2">Dignatarios</h2>
-              <div className="w-16 h-1 bg-[#8a94bb]"></div>
-            </div>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {dignatarios.map((miembro, index) => (
-                <div 
-                  key={miembro.id}
-                  className="group bg-white rounded-xl p-6 shadow-md border border-[#d4d4e1] cursor-pointer hover:shadow-lg hover:border-[#8a94bb] transition-all duration-300"
-                  onClick={() => goToSlide(todosMiembros.findIndex((m) => m.id === miembro.id) + 2)}
-                  style={{ animationDelay: `${index * 50 + 400}ms` }}
-                >
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center space-x-4">
-                      <div className="w-3 h-3 bg-[#8a94bb] rounded-full group-hover:bg-[#2c4687] transition-colors duration-300"></div>
-                      <div>
-                        <p className="text-xs font-medium text-[#8a94bb] uppercase tracking-wider mb-1">
-                          Dignatario
-                        </p>
-                        <p className="text-base font-medium text-[#2c4687] group-hover:text-[#8a94bb] transition-colors">
-                          {miembro.nombre}
-                        </p>
-                      </div>
-                    </div>
-                    <ChevronRight className="w-4 h-4 text-[#d4d4e1] group-hover:text-[#8a94bb] transition-colors duration-300" />
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-
           {/* Procuradores */}
-          <div className="animate-fade-in delay-400">
+          <div className="animate-fade-in delay-200">
             <div className="mb-8">
               <h2 className="text-2xl font-semibold text-[#2c4687] mb-2">Procuradores</h2>
               <div className="w-16 h-1 bg-[#2c4687]"></div>
@@ -446,7 +462,7 @@ export default function PresentacionJunta() {
                   key={miembro.id}
                   className="group flex items-center justify-between p-6 border-b border-[#f6f6f6] last:border-b-0 cursor-pointer hover:bg-[#f6f6f6] transition-all duration-300"
                   onClick={() => goToSlide(todosMiembros.findIndex((m) => m.id === miembro.id) + 2)}
-                  style={{ animationDelay: `${index * 100 + 600}ms` }}
+                  style={{ animationDelay: `${index * 100 + 400}ms` }}
                 >
                   <div className="flex items-center space-x-6">
                     <div className="w-4 h-4 bg-[#2c4687] rounded-full group-hover:scale-125 transition-transform duration-300"></div>
@@ -466,7 +482,7 @@ export default function PresentacionJunta() {
           </div>
 
           {/* Colaboradores */}
-          <div className="animate-fade-in delay-600">
+          <div className="animate-fade-in delay-400">
             <div className="mb-8">
               <h2 className="text-2xl font-semibold text-[#2c4687] mb-2">Colaboradores</h2>
               <div className="w-16 h-1 bg-[#8a94bb]"></div>
@@ -478,7 +494,7 @@ export default function PresentacionJunta() {
                   key={miembro.id}
                   className="group bg-white rounded-xl p-6 shadow-md border border-[#d4d4e1] cursor-pointer hover:shadow-lg hover:border-[#8a94bb] transition-all duration-300"
                   onClick={() => goToSlide(todosMiembros.findIndex((m) => m.id === miembro.id) + 2)}
-                  style={{ animationDelay: `${index * 100 + 800}ms` }}
+                  style={{ animationDelay: `${index * 100 + 600}ms` }}
                 >
                   <div className="text-center">
                     <div className="w-12 h-12 bg-[#f6f6f6] rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-[#8a94bb] transition-colors duration-300">
