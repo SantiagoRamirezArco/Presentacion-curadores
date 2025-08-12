@@ -577,7 +577,7 @@ export default function PresentacionJunta() {
           
         </div>
         
-        <div className="container mx-auto px-8 py-16 relative z-10">
+        <div className="w-[90%] mx-auto px-4 py-16 relative z-10">
           
           {/* Sección "Sobre Mí" - Estilo más fiel al CV de Angela */}
           <div className="py-0 relative overflow-hidden">
@@ -628,25 +628,25 @@ export default function PresentacionJunta() {
             </div>
             
             {/* Layout igual al CV: imagen izquierda, contenido derecha */}
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center relative z-10">
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center relative z-10">
               
-              {/* Logo del Colegio lado izquierdo (5 columnas como en el CV) */}
-              <div className="lg:col-span-5">
+              {/* Logo del Colegio lado izquierdo (4 columnas - reducido) */}
+              <div className="lg:col-span-4">
                 <div className="relative">
-                  <div className="w-full h-[500px] bg-white rounded-lg flex items-center justify-center shadow-lg border-2 border-gray-200">
+                  <div className="w-full h-[350px] bg-white rounded-lg flex items-center justify-center shadow-lg border-2 border-gray-200">
                     <Image
                       src="/logo-cncu.png"
                       alt="Logo Colegio Nacional de Curadores Urbanos"
-                      width={600}
-                      height={600}
+                      width={450}
+                      height={450}
                       className="object-contain"
                     />
                   </div>
                 </div>
               </div>
               
-              {/* Contenido lado derecho (7 columnas como en el CV) */}
-              <div className="lg:col-span-7">
+              {/* Contenido lado derecho (8 columnas - ampliado) */}
+              <div className="lg:col-span-8">
                 
                 {/* Título del cargo con diseño especial */}
                 <div className="mb-6">
@@ -663,7 +663,7 @@ export default function PresentacionJunta() {
                 
                 {/* Descripción/experiencia como párrafo principal */}
                 {(miembro as any).detalles?.experiencia && typeof (miembro as any).detalles.experiencia === 'string' && (
-                  <div className="text-gray-600 leading-relaxed text-lg mb-8 whitespace-pre-line">
+                  <div className="text-gray-600 leading-relaxed text-lg mb-8 whitespace-pre-line text-justify">
                     {(miembro as any).detalles.experiencia}
                   </div>
                 )}
