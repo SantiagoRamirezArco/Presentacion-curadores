@@ -22,17 +22,14 @@ const juntaDirectiva = [
         "Magíster en Derecho y Gestión Urbanística – Universidad del Rosario"
       ],
       experienciaProfesional: [
+        "Presidente del Colegio Nacional de Curadores Urbanos 2025-2026",
         "Coordinador de Vivienda de la ciudad de Montería",
         "Director de la Política Departamental de Vivienda de Córdoba",
         "Asesor en temas de desarrollo territorial de varios municipios en Colombia",
-        "Curador Urbano 1 de la ciudad de Montería 2015-2020 y 2021-2026",
-        "Presidente del Colegio Nacional de Curadores Urbanos 2025-2026"
+        "Curador Urbano 1 de la ciudad de Montería 2015-2020 y 2021-2026"
       ],
       logros: [
-        "Modernización integral de los procesos del Colegio Nacional",
-        "Fortalecimiento de la representación gremial a nivel nacional",
-        "Implementación de nuevas tecnologías en el sector de curadorías",
-        "Mejora sustancial de las relaciones interinstitucionales"
+        "Fortalecimiento de la representación gremial a nivel nacional"
       ]
     }
   },
@@ -43,7 +40,7 @@ const juntaDirectiva = [
     foto: "/professional-architect.png",
     detalles: {
       posesion: "2 de enero de 2023",
-      experiencia: "más de 30 años de experiencia en el sector público y privado",
+      experiencia: "Arquitecta con más de 30 años de experiencia en el sector público y privado",
       universidad: "Universidad de San Buenaventura de Cali",
       formacion: [
         "Máster en Gestión de Ciudad y Planificación Urbana - Universidad Oberta de Cataluña España",
@@ -67,6 +64,7 @@ const juntaDirectiva = [
     foto: "/professional-woman-engineer.png",
     detalles: {
       titulo: "Curadora Urbana 1 de Cúcuta",
+      encabezado: "Ingeniera civil, abogada, con 18 años de experiencia como Curadora Urbana",
       formacion: [
         "Ingeniera Civil - Universidad Francisco de Paula Santander",
         "Abogada - Universidad de Santander",
@@ -77,15 +75,13 @@ const juntaDirectiva = [
         "Cursando Especialización en Derecho Administrativo - Unilibre"
       ],
       experiencia: [
-        "18 años como Curadora Urbana 1 de Cúcuta (15-junio-2007 a la fecha)",
-        "12 años en Alcaldía de Cúcuta (13-01-1995 a 14-06-2007)",
-        "Docente modalidad cátedra Universidad Libre de Colombia seccionales Cúcuta y Socorro"
-      ],
-      cargos: [
+        "Curadora Urbana 1 de Cúcuta (15-junio-2007 a la fecha)",
         "Profesional Universitario área control físico y Ambiental",
         "Directora (e) Planeación Municipal",
         "Jefe (e) Estudios Socioeconómicos y Proyectos de inversión",
-        "Jefe Demarcación, nomenclatura y usos del suelo"
+        "Jefe Demarcación, nomenclatura y usos del suelo",
+        "12 años en Alcaldía de Cúcuta (13-01-1995 a 14-06-2007)",
+        "Docente modalidad cátedra Universidad Libre de Colombia seccionales Cúcuta y Socorro"
       ]
     }
   },
@@ -99,27 +95,25 @@ const dignatarios = [
     foto: "/professional-man-doctor.png",
     detalles: {
       titulo: "Curadora Urbana 2 Ibagué",
+      encabezado: "Arquitecta con más de 20 años de experiencia profesional en el sector publico y privado",
       formacion: [
         "Arquitecta - Universidad la Gran Colombia",
         "Especialista en Planeación Territorial - Fundación Universidad de América",
         "Especialista en Derecho Urbano - Colegio Mayor de Nuestra Señora del Rosario"
       ],
-      experiencia: "29 años de experiencia profesional",
-      docencia: [
-        "Universidad Antonio Nariño (2000-2001) - metodología de la investigación, ética profesional",
-        "Universidad de Ibagué (2008-2009) - taller VII, construcción VI, urbanismo IV"
-      ],
-      sectorPublico: [
+      experiencia: [
+        "Curadora Urbana n° 2 de Ibagué en propiedad (desde junio 2021)",
+        "Curadora Urbana n° 1 de Ibagué en provisionalidad (2013-2014)",
         "Directora de ordenamiento territorial – Alcaldía de Ibagué (2002-2003)",
         "Asesora de municipios (Guamo, Cajamarca, Ambalema, Ibagué)",
-        "Curadora Urbana n° 1 de Ibagué en provisionalidad (2013-2014)",
-        "Curadora Urbana n° 2 de Ibagué en propiedad (desde junio 2021)"
-      ],
-      sectorPrivado: [
         "23 años como profesional independiente",
         "Consultorías y asesorías para proyectos urbanísticos y arquitectónicos",
         "CEO de Crecimiento Urbano SAS (desde 2017)",
         "Director ejecutivo Sociedad Colombiana de Arquitectos Regional Tolima (1999-2000)"
+      ],
+      docencia: [
+        "Universidad Antonio Nariño (2000-2001) - metodología de la investigación, ética profesional",
+        "Universidad de Ibagué (2008-2009) - taller VII, construcción VI, urbanismo IV"
       ]
     }
   },
@@ -130,8 +124,7 @@ const dignatarios = [
     foto: "/professional-woman-architect.png",
     detalles: {
       titulo: "Curador Urbano 1 de Barrancabermeja",
-      matricula: "A252000-16509055",
-      nacimiento: "27 de Agosto de 1975 - Buenaventura, Valle del Cauca",
+      encabezado: "Arquitecto con 25 años de experiencia en proyectos de ordenamiento y planeación",
       formacion: [
         "Arquitecto - Universidad La Gran Colombia (25 años de experiencia)",
         "Especialista en Planeamiento Urbano y Regional",
@@ -139,8 +132,10 @@ const dignatarios = [
         "Magister en Planeación Urbana y Regional con énfasis en diseño urbano"
       ],
       experiencia: [
-        "25 años en proyectos de ordenamiento, planeación, diseño y norma urbana",
-        "Proyectos en Bogotá, Barrancabermeja, Cali, Buenaventura, Santa Marta, Medellín, Ipiales, Tunja, Toca, Jagua de Ibirico y Ciudad de Panamá"
+        "Curador Urbano 1 de Barrancabermeja",
+        "Secretario de Planeación Municipal",
+        "Curador Suplente",
+        "Docente de maestría"
       ],
       especialidades: [
         "Revisión de planes de ordenamiento territorial",
@@ -148,16 +143,10 @@ const dignatarios = [
         "Planes parciales y unidades de planificación rural",
         "Diseño de hospitales, centros universitarios, edificios multifamiliares"
       ],
-      cargos: [
-        "Secretario de Planeación Municipal",
-        "Curador Suplente",
-        "Docente de maestría",
-        "Actual Curador de Barrancabermeja"
-      ],
       contacto: "yair.caicedo@curaduria1barrancabermeja.com.co"
     }
   },
-  { id: 6, nombre: "Angela Maria Restrepo Uribe", cargo: "Dignatario", foto: "/professional-woman-executive.png" },
+
   { 
     id: 7, 
     nombre: "Mauricio Vargas Cuellar", 
@@ -765,251 +754,235 @@ export default function PresentacionJunta() {
   )
 
   const renderMiembro = (miembro: (typeof todosMiembros)[0]) => (
-    <div className="min-h-screen bg-gradient-to-br from-[#f6f6f6] via-white to-[#d4d4e1]/30 relative overflow-hidden">
-      
-      {/* Elementos decorativos de fondo */}
-      <div className="absolute inset-0">
-        <div className="absolute top-20 right-20 w-96 h-96 bg-gradient-to-br from-[#2c4687]/10 to-transparent rounded-full blur-3xl"></div>
-        <div className="absolute bottom-20 left-20 w-80 h-80 bg-gradient-to-tr from-[#8a94bb]/15 to-transparent rounded-full blur-3xl"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-to-r from-[#2c4687]/5 to-[#8a94bb]/5 rounded-full blur-3xl"></div>
+    <div className="min-h-screen bg-[#2c4687] relative overflow-hidden">
+      {/* Header con efecto similar al CV de Angela */}
+      <div className="bg-[#2c4687] relative" style={{ minHeight: '35vh' }}>
+        {/* Elementos decorativos del header */}
+        <div className="absolute inset-0 overflow-hidden">
+          <div className="absolute top-20 right-20 w-64 h-64 bg-white/10 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-10 left-20 w-80 h-80 bg-white/5 rounded-full blur-3xl"></div>
+        </div>
+        
+        <div className="container mx-auto px-8 py-16 relative z-10">
+          <div className="flex items-center justify-between">
+            {/* Información principal del miembro */}
+            <div className="flex-1">
+              <div className="flex items-center space-x-8">
+                {/* Avatar circular grande */}
+                <div className="relative">
+                  <div className="w-40 h-40 bg-white/20 rounded-full flex items-center justify-center backdrop-blur-sm border-4 border-white/30">
+                    <span className="text-4xl font-bold text-white tracking-wide">
+                      {miembro.nombre.split(' ').map((name: string) => name[0]).join('').slice(0, 2)}
+                    </span>
+                  </div>
+                </div>
+                
+                {/* Información textual */}
+                <div className="flex-1 space-y-4">
+                  <h1 
+                    className="text-5xl font-bold text-white mb-2 uppercase tracking-wide"
+                    style={{ WebkitTextStroke: '2px rgba(255,255,255,0.3)' }}
+                  >
+                    {miembro.nombre}
+                  </h1>
+                  <div className="text-2xl font-light text-white/90">
+                    {miembro.cargo}
+                  </div>
+                  {(miembro as any).detalles?.titulo && (
+                    <div className="text-lg text-white/80 font-medium">
+                      {(miembro as any).detalles.titulo}
+                    </div>
+                  )}
+                  {(miembro as any).detalles?.encabezado && (
+                    <div className="text-base text-white/75 max-w-2xl leading-relaxed">
+                      {(miembro as any).detalles.encabezado}
+                    </div>
+                  )}
+                </div>
+              </div>
+            </div>
+            
+            {/* Botón de descarga/contacto */}
+            <div className="flex flex-col items-end space-y-4">
+              <Button 
+                className="bg-white/20 text-white border-2 border-white/30 hover:bg-white/30 backdrop-blur-sm px-8 py-3 font-semibold tracking-wide"
+                variant="outline"
+              >
+                Ver Detalles
+              </Button>
+              {(miembro as any).detalles?.posesion && (
+                <div className="text-white/70 text-sm">
+                  En el cargo desde {(miembro as any).detalles.posesion}
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div className="relative z-10 min-h-screen p-4">
-        <div className="max-w-full mx-auto">
+      {/* Contenido principal estilo CV */}
+      <div className="bg-white min-h-screen">
+        <div className="container mx-auto px-8 py-16">
           
-          {/* Layout principal: Dinámico según contenido disponible */}
-          <div className="flex gap-6 animate-fade-in">
+          {/* Sección "Sobre Mí" */}
+          <div className="mb-16">
+            <div className="flex items-center justify-center mb-12">
+              <h1 
+                className="text-6xl font-light text-gray-100 uppercase tracking-widest"
+                style={{ WebkitTextStroke: '1px #dee2e6' }}
+              >
+                PERFIL
+              </h1>
+              <h1 className="absolute text-3xl font-bold text-[#2c4687] uppercase tracking-wide">
+                SOBRE {miembro.nombre.split(' ')[0]}
+              </h1>
+            </div>
             
-            {/* DIV 1: Información + Formación + Trayectoria (ancho dinámico) */}
-            <div className={`space-y-6 ${(miembro as any).detalles?.logros ? 'w-3/4' : 'w-full'}`}>
-              
-              {/* Información personal expandida */}
-              <div className="bg-white/70 backdrop-blur-xl rounded-3xl p-6 shadow-xl border border-[#d4d4e1]/50">
-                <div className="flex items-center space-x-6">
-                  
-                  {/* Avatar */}
-                  <div className="relative group">
-                    <div className="absolute -inset-1 bg-gradient-to-r from-[#2c4687] to-[#8a94bb] rounded-3xl blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-pulse"></div>
-                    <div className="relative w-24 h-24 bg-gradient-to-br from-[#2c4687] to-[#8a94bb] rounded-3xl flex items-center justify-center shadow-xl">
-                      <span className="text-xl font-bold text-white tracking-wide">
-                        {miembro.nombre.split(' ').map((name: string) => name[0]).join('').slice(0, 2)}
-                      </span>
+            <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 items-start">
+              {/* Información personal */}
+              <div className="lg:col-span-3">
+                {(miembro as any).detalles?.experiencia && typeof (miembro as any).detalles.experiencia === 'string' && (
+                  <p className="text-gray-600 leading-relaxed text-lg mb-8">
+                    {(miembro as any).detalles.experiencia}
+                  </p>
+                )}
+                
+                {/* Grid de información personal */}
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div className="space-y-4">
+                    <div className="py-3">
+                      <h6 className="font-semibold text-gray-800">
+                        Nombre: <span className="text-gray-600 font-normal">{miembro.nombre}</span>
+                      </h6>
                     </div>
-                  </div>
-                  
-                  {/* Info detallada */}
-                  <div className="flex-1 space-y-3">
-                    <div className="flex items-center space-x-4">
-                      <div className="bg-gradient-to-r from-[#2c4687] to-[#8a94bb] text-white px-4 py-2 rounded-full text-sm font-bold tracking-wider">
-                        {miembro.nombre.split(' ').map((name: string) => name[0]).join('')}
+                    <div className="py-3">
+                      <h6 className="font-semibold text-gray-800">
+                        Cargo: <span className="text-gray-600 font-normal">{miembro.cargo}</span>
+                      </h6>
+                    </div>
+                    {(miembro as any).detalles?.universidad && (
+                      <div className="py-3">
+                        <h6 className="font-semibold text-gray-800">
+                          Universidad: <span className="text-gray-600 font-normal">{(miembro as any).detalles.universidad}</span>
+                        </h6>
                       </div>
-                      <div className="h-6 w-px bg-gradient-to-b from-[#2c4687] to-[#8a94bb]"></div>
-                      <span className="text-xl font-bold text-[#2c4687] tracking-wide">{miembro.cargo}</span>
-                    </div>
-                    
-                    <h1 className="text-3xl font-light text-[#2c4687] tracking-tight leading-tight">
-                      {miembro.nombre}
-                    </h1>
-                    
-                    {(miembro as any).detalles?.experiencia && (
-                      <p className="text-base text-[#8a94bb] leading-relaxed font-light">
-                        {(miembro as any).detalles.experiencia}
-                      </p>
                     )}
                   </div>
                   
-                  {/* Métricas */}
-                  <div className="flex space-x-4">
+                  <div className="space-y-4">
+                    {(miembro as any).detalles?.posesion && (
+                      <div className="py-3">
+                        <h6 className="font-semibold text-gray-800">
+                          En el cargo desde: <span className="text-gray-600 font-normal">{(miembro as any).detalles.posesion}</span>
+                        </h6>
+                      </div>
+                    )}
                     {(miembro as any).detalles?.formacion && (
-                      <div className="text-center bg-white/80 rounded-xl px-3 py-2 backdrop-blur-lg border border-[#d4d4e1]/50">
-                        <div className="text-xl font-bold bg-gradient-to-r from-[#2c4687] to-[#8a94bb] bg-clip-text text-transparent">
-                          {(miembro as any).detalles.formacion.length}
-                        </div>
-                        <div className="text-xs text-[#8a94bb] uppercase tracking-wider">Formaciones</div>
+                      <div className="py-3">
+                        <h6 className="font-semibold text-gray-800">
+                          Formaciones: <span className="text-gray-600 font-normal">{(miembro as any).detalles.formacion.length}</span>
+                        </h6>
                       </div>
                     )}
                     {(miembro as any).detalles?.experienciaProfesional && (
-                      <div className="text-center bg-white/80 rounded-xl px-3 py-2 backdrop-blur-lg border border-[#d4d4e1]/50">
-                        <div className="text-xl font-bold bg-gradient-to-r from-[#8a94bb] to-[#2c4687] bg-clip-text text-transparent">
-                          {(miembro as any).detalles.experienciaProfesional.length}
-                        </div>
-                        <div className="text-xs text-[#8a94bb] uppercase tracking-wider">Experiencias</div>
-                      </div>
-                    )}
-                    {(miembro as any).detalles?.logros && (
-                      <div className="text-center bg-white/80 rounded-xl px-3 py-2 backdrop-blur-lg border border-[#d4d4e1]/50">
-                        <div className="text-xl font-bold bg-gradient-to-r from-[#2c4687] to-[#8a94bb] bg-clip-text text-transparent">
-                          {(miembro as any).detalles.logros.length}
-                        </div>
-                        <div className="text-xs text-[#8a94bb] uppercase tracking-wider">Logros</div>
+                      <div className="py-3">
+                        <h6 className="font-semibold text-gray-800">
+                          Experiencias: <span className="text-gray-600 font-normal">{(miembro as any).detalles.experienciaProfesional.length}</span>
+                        </h6>
                       </div>
                     )}
                   </div>
                 </div>
               </div>
-
-              {/* Grid para Formación y Trayectoria - Ancho dinámico */}
-              <div className={`grid gap-6 ${
-                (miembro as any).detalles?.formacion && (miembro as any).detalles?.experienciaProfesional 
-                  ? 'grid-cols-2' 
-                  : 'grid-cols-1'
-              }`}>
-                
-                {/* Formación Académica */}
-                {(miembro as any).detalles?.formacion && (
-                  <div className="animate-slide-up delay-100">
-                    <div className="bg-white/70 backdrop-blur-xl rounded-3xl shadow-xl border border-[#d4d4e1]/50 overflow-hidden h-full">
-                      
-                      {/* Header con gradiente */}
-                      <div className="bg-gradient-to-r from-[#2c4687] to-[#8a94bb] p-5">
-                        <div className="flex items-center space-x-3">
-                          <div className="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center">
-                            <GraduationCap className="w-4 h-4 text-white" />
-                          </div>
-                          <h3 className="text-white font-semibold text-base">Formación Académica</h3>
-                        </div>
-                      </div>
-                      
-                      {/* Contenido */}
-                      <div className="p-5">
-                        <div className="space-y-3 max-h-[calc(100vh-400px)] overflow-y-auto">
-                          {(miembro as any).detalles.formacion.map((item: string, index: number) => (
-                            <div key={index} className="group relative">
-                              <div className="bg-gradient-to-r from-[#f6f6f6] to-[#d4d4e1]/30 rounded-xl p-3 hover:shadow-lg transition-all duration-300 border border-[#d4d4e1]/50">
-                                <div className="flex items-start space-x-2">
-                                  <div className="w-5 h-5 bg-gradient-to-r from-[#2c4687] to-[#8a94bb] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                                    <span className="text-white text-xs font-bold">{index + 1}</span>
-                                  </div>
-                                  <p className="text-[#2c4687] leading-relaxed text-sm">{item}</p>
-                                </div>
-                              </div>
-                            </div>
-                          ))}
-                        </div>
-                      </div>
-                    </div>
+              
+              {/* Imagen o avatar más grande */}
+              <div className="lg:col-span-2">
+                <div className="bg-gray-100 rounded-lg p-8 text-center">
+                  <div className="w-48 h-48 bg-[#2c4687] rounded-full flex items-center justify-center mx-auto mb-4">
+                    <span className="text-5xl font-bold text-white tracking-wide">
+                      {miembro.nombre.split(' ').map((name: string) => name[0]).join('').slice(0, 2)}
+                    </span>
                   </div>
-                )}
-
-                {/* Experiencia Profesional */}
-                {(miembro as any).detalles?.experienciaProfesional && (
-                  <div className="animate-slide-up delay-200">
-                    <div className="bg-white/70 backdrop-blur-xl rounded-3xl shadow-xl border border-[#d4d4e1]/50 overflow-hidden h-full">
-                      
-                      {/* Header */}
-                      <div className="bg-gradient-to-r from-[#8a94bb] to-[#2c4687] p-5">
-                        <div className="flex items-center space-x-3">
-                          <div className="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center">
-                            <Briefcase className="w-4 h-4 text-white" />
-                          </div>
-                          <h3 className="text-white font-semibold text-base">Trayectoria Profesional</h3>
-                        </div>
-                      </div>
-                      
-                      {/* Contenido en grid */}
-                      <div className="p-5">
-                        <div className="grid grid-cols-1 gap-3 max-h-[calc(100vh-400px)] overflow-y-auto">
-                          {(miembro as any).detalles.experienciaProfesional.map((item: string, index: number) => (
-                            <div key={index} className="group relative">
-                              <div className="bg-gradient-to-br from-[#f6f6f6] to-[#d4d4e1]/30 rounded-xl p-3 hover:shadow-lg transition-all duration-300 border border-[#d4d4e1]/50">
-                                
-                                {/* Número de posición */}
-                                <div className="flex items-center mb-2">
-                                  <div className="w-6 h-6 bg-gradient-to-r from-[#8a94bb] to-[#2c4687] rounded-full flex items-center justify-center mr-3">
-                                    <span className="text-white text-xs font-bold">#{index + 1}</span>
-                                  </div>
-                                  <div className="flex-1 h-px bg-gradient-to-r from-[#d4d4e1] to-[#8a94bb] rounded-full"></div>
-                                </div>
-                                
-                                <p className="text-[#2c4687] text-sm leading-relaxed">{item}</p>
-                              </div>
-                            </div>
-                          ))}
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                )}
+                  <h3 className="text-xl font-semibold text-gray-800 mb-2">{miembro.cargo}</h3>
+                  <p className="text-gray-600">Colegio Nacional de Curadores Urbanos</p>
+                </div>
               </div>
             </div>
+          </div>
 
-            {/* DIV 2: Logros Destacados (25% - solo si existen) */}
-            {(miembro as any).detalles?.logros && (
-              <div className="w-1/4">
-                <div className="animate-slide-up delay-300 h-full">
-                  <div className="bg-white/70 backdrop-blur-xl rounded-3xl shadow-xl border border-[#d4d4e1]/50 overflow-hidden h-full">
-                    
-                    {/* Header de logros */}
-                    <div className="bg-gradient-to-r from-[#2c4687] to-[#8a94bb] p-5">
-                      <div className="flex items-center space-x-3">
-                        <div className="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center">
-                          <Award className="w-4 h-4 text-white" />
-                        </div>
-                        <h3 className="text-white font-semibold text-base">Logros Destacados</h3>
+          {/* Sección de Formación y Experiencia */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+            
+            {/* Formación Académica */}
+            {(miembro as any).detalles?.formacion && (
+              <div>
+                <h3 className="text-2xl font-semibold text-[#2c4687] mb-8">Mi Educación</h3>
+                <div className="border-l-4 border-[#2c4687] pl-8 ml-4 space-y-8">
+                  {(miembro as any).detalles.formacion.map((item: string, index: number) => (
+                    <div key={index} className="relative">
+                      <div 
+                        className="absolute w-4 h-4 bg-[#2c4687] rounded-full -left-10"
+                        style={{ top: '2px' }}
+                      ></div>
+                      <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
+                        <h5 className="font-bold text-gray-800 mb-2 text-lg">
+                          {item.split(' - ')[0] || item.split(' | ')[0] || item}
+                        </h5>
+                        {(item.includes(' - ') || item.includes(' | ')) && (
+                          <p className="text-gray-600 mb-2">
+                            <strong>{item.split(' - ')[1] || item.split(' | ')[1]}</strong>
+                          </p>
+                        )}
                       </div>
                     </div>
-                    
-                    {/* Logros en columna vertical */}
-                    <div className="p-5">
-                      <div className="space-y-4 max-h-[calc(100vh-300px)] overflow-y-auto">
-                        {(miembro as any).detalles.logros.map((item: string, index: number) => (
-                          <div key={index} className="group">
-                            <div className="bg-gradient-to-br from-[#f6f6f6] to-[#d4d4e1]/30 rounded-xl p-4 hover:shadow-lg transition-all duration-300 border border-[#d4d4e1]/50">
-                              
-                              {/* Icono de logro */}
-                              <div className="flex items-center mb-3">
-                                <div className="w-8 h-8 bg-gradient-to-r from-[#2c4687] to-[#8a94bb] rounded-full flex items-center justify-center mr-3">
-                                  <span className="text-white text-xs font-bold">{index + 1}</span>
-                                </div>
-                                <div className="flex-1 h-px bg-gradient-to-r from-[#d4d4e1] to-[#8a94bb] rounded-full"></div>
-                              </div>
-                              
-                              <p className="text-[#2c4687] leading-relaxed font-medium text-sm">{item}</p>
-                            </div>
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-                  </div>
+                  ))}
                 </div>
               </div>
             )}
-          </div>
 
-          {/* Footer con información adicional */}
-          <div className="mt-6 animate-fade-in delay-500">
-            <div className="bg-white/40 backdrop-blur-xl rounded-3xl p-5 border border-[#d4d4e1]/30">
-              <div className="flex justify-between items-center">
-                
-                {/* Información adicional */}
-                <div className="flex space-x-6">
-                  {(miembro as any).detalles?.universidad && (
-                    <div className="flex items-center space-x-3">
-                      <Building className="w-4 h-4 text-[#2c4687]" />
-                      <span className="text-[#8a94bb] font-medium text-sm">
-                        {(miembro as any).detalles.universidad.split(' ').slice(0, 4).join(' ')}
-                      </span>
+            {/* Experiencia Profesional / Logros */}
+            {((miembro as any).detalles?.experienciaProfesional || (miembro as any).detalles?.logros) && (
+              <div>
+                <h3 className="text-2xl font-semibold text-[#2c4687] mb-8">
+                  {(miembro as any).detalles?.logros ? 'Logros y Experiencia' : 'Experiencia Profesional'}
+                </h3>
+                <div className="border-l-4 border-[#2c4687] pl-8 ml-4 space-y-8">
+                  {/* Mostrar logros primero si existen */}
+                  {(miembro as any).detalles?.logros && (miembro as any).detalles.logros.map((item: string, index: number) => (
+                    <div key={`logro-${index}`} className="relative">
+                      <div 
+                        className="absolute w-4 h-4 bg-[#2c4687] rounded-full -left-10"
+                        style={{ top: '2px' }}
+                      ></div>
+                      <div className="bg-gradient-to-r from-[#2c4687]/5 to-white p-6 rounded-lg shadow-sm border border-[#2c4687]/20 hover:shadow-md transition-shadow">
+                        <h5 className="font-bold text-[#2c4687] mb-2 text-lg">LOGRO DESTACADO</h5>
+                        <p className="text-gray-700">{item}</p>
+                      </div>
                     </div>
-                  )}
-                  {(miembro as any).detalles?.posesion && (
-                    <div className="flex items-center space-x-3">
-                      <Calendar className="w-4 h-4 text-[#8a94bb]" />
-                      <span className="text-[#8a94bb] font-medium text-sm">
-                        Desde {(miembro as any).detalles.posesion}
-                      </span>
+                  ))}
+                  
+                  {/* Luego experiencia profesional */}
+                  {(miembro as any).detalles?.experienciaProfesional && (miembro as any).detalles.experienciaProfesional.map((item: string, index: number) => (
+                    <div key={`exp-${index}`} className="relative">
+                      <div 
+                        className="absolute w-4 h-4 bg-[#2c4687] rounded-full -left-10"
+                        style={{ top: '2px' }}
+                      ></div>
+                      <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
+                        <h5 className="font-bold text-gray-800 mb-2 text-lg">
+                          {item.split(' | ')[0] || item.split(' - ')[0] || item}
+                        </h5>
+                        {(item.includes(' | ') || item.includes(' - ')) && (
+                          <p className="text-gray-600">
+                            {item.split(' | ')[1] || item.split(' - ')[1]}
+                          </p>
+                        )}
+                      </div>
                     </div>
-                  )}
-                  {(miembro as any).detalles?.contacto && (
-                    <div className="flex items-center space-x-3">
-                      <Mail className="w-4 h-4 text-[#8a94bb]" />
-                      <span className="text-[#8a94bb] font-medium text-sm">
-                        Contacto disponible
-                      </span>
-                    </div>
-                  )}
+                  ))}
                 </div>
               </div>
-            </div>
+            )}
           </div>
         </div>
       </div>
@@ -1098,7 +1071,7 @@ export default function PresentacionJunta() {
 
       {/* Controles de navegación */}
       {currentSlide > 0 && (
-        <div className="fixed bottom-8 left-1/2 transform -translate-x-1/2 flex items-center gap-4 bg-white/90 backdrop-blur-sm rounded-full px-6 py-3 shadow-lg border border-[#d4d4e1]">
+        <div className="fixed bottom-8 left-1/2 transform -translate-x-1/2 flex items-center gap-4 bg-white/90 backdrop-blur-sm rounded-full px-6 py-3 shadow-lg border border-[#d4d4e1] z-[100]">
           <Button
             variant="ghost"
             size="sm"
