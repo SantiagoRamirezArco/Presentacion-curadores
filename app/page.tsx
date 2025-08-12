@@ -165,9 +165,7 @@ const dignatarios = [
       experiencia: "Ingeniera Civil especialista en Derecho Urbano de la Universidad Externado de Colombia y especialista en Régimen de Propiedad Horizontal de la Universidad de Cataluña. Con amplia experiencia en temas relacionados con el ordenamiento del territorio y planificación urbana. Ha desempeñado su carrera profesional en el desarrollo y control urbano.\n\nCarrera profesional en el desarrollo y control urbano, ejerciendo como:\n• Jefe de la División de Control Urbano y Espacio Público de Barranquilla.\n• Asistente de los Curadores Urbanos Roque Amín Escaf y Luis Alviar Piedrahita.\n• Curadora (E) en el Distrito de Barranquilla.\n• Subgerente Técnico del Instituto Distrital de Urbanismo y Control IDUC, coordinando el estudio de Recuperación del Espacio Público del Centro Histórico de Barranquilla y su área de influencia.\n• Elaboración del Manual del Espacio Público de Barranquilla, en calidad de Coordinadora -Asesora de la Cámara de Comercio de Barranquilla, destacándose la participación en la Coordinación Interinstitucional del Plan Parcial del Barrio Siape y su área de influencia\n• Formulación de múltiples Planes Parciales, UPR, revisiones de Planes de Ordenamiento Territorial además de Consultorías a empresas constructoras a nivel nacional.\n• Curadora Primera del Distrito de Santa Marta.\n• Curadora Primera del municipio de Puerto Colombia.",
     }
   },
-]
 
-const procuradores = [
   {
     id: 10,
     nombre: "Martha Ligia Bonilla Currea",
@@ -223,7 +221,7 @@ const colaboradores = [
   },
 ]
 
-const todosMiembros = [...juntaDirectiva, ...procuradores, ...colaboradores]
+const todosMiembros = [...juntaDirectiva, ...colaboradores]
 
 export default function PresentacionJunta() {
   const [currentSlide, setCurrentSlide] = useState(0)
@@ -449,40 +447,8 @@ export default function PresentacionJunta() {
             </div>
           </div>
 
-          {/* Procuradores */}
-          <div className="animate-fade-in delay-200">
-            <div className="mb-8">
-              <h2 className="text-2xl font-semibold text-[#2c4687] mb-2">Procuradores</h2>
-              <div className="w-16 h-1 bg-[#2c4687]"></div>
-            </div>
-            
-            <div className="bg-white rounded-2xl shadow-lg overflow-hidden border border-[#d4d4e1]">
-              {procuradores.map((miembro, index) => (
-                <div 
-                  key={miembro.id}
-                  className="group flex items-center justify-between p-6 border-b border-[#f6f6f6] last:border-b-0 cursor-pointer hover:bg-[#f6f6f6] transition-all duration-300"
-                  onClick={() => goToSlide(todosMiembros.findIndex((m) => m.id === miembro.id) + 2)}
-                  style={{ animationDelay: `${index * 100 + 400}ms` }}
-                >
-                  <div className="flex items-center space-x-6">
-                    <div className="w-4 h-4 bg-[#2c4687] rounded-full group-hover:scale-125 transition-transform duration-300"></div>
-                    <div>
-                      <p className="text-sm font-medium text-[#8a94bb] uppercase tracking-wider mb-1">
-                        {miembro.cargo}
-                      </p>
-                      <p className="text-lg font-medium text-[#2c4687] group-hover:text-[#8a94bb] transition-colors">
-                        {miembro.nombre}
-                      </p>
-                    </div>
-                  </div>
-                  <ChevronRight className="w-5 h-5 text-[#d4d4e1] group-hover:text-[#8a94bb] group-hover:translate-x-1 transition-all duration-300" />
-                </div>
-              ))}
-            </div>
-          </div>
-
           {/* Colaboradores */}
-          <div className="animate-fade-in delay-400">
+          <div className="animate-fade-in delay-200">
             <div className="mb-8">
               <h2 className="text-2xl font-semibold text-[#2c4687] mb-2">Colaboradores</h2>
               <div className="w-16 h-1 bg-[#8a94bb]"></div>
@@ -494,7 +460,7 @@ export default function PresentacionJunta() {
                   key={miembro.id}
                   className="group bg-white rounded-xl p-6 shadow-md border border-[#d4d4e1] cursor-pointer hover:shadow-lg hover:border-[#8a94bb] transition-all duration-300"
                   onClick={() => goToSlide(todosMiembros.findIndex((m) => m.id === miembro.id) + 2)}
-                  style={{ animationDelay: `${index * 100 + 600}ms` }}
+                  style={{ animationDelay: `${index * 100 + 400}ms` }}
                 >
                   <div className="text-center">
                     <div className="w-12 h-12 bg-[#f6f6f6] rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-[#8a94bb] transition-colors duration-300">
